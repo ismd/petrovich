@@ -1,0 +1,75 @@
+@require 'sprite'
+@require 'common'
+@require 'default'
+
+body
+  font 24px Helvetica, Arial, sans-serif
+
+.layout
+  width 960px
+  margin 0 auto
+
+.menu
+  font-size 17px
+  text-align center
+  padding 13px 0
+  border-bottom 1px solid #d1d1d1
+  position fixed
+  top 0
+  left 0
+  right 0
+
+.menu__item
+  display inline-block
+
+  & + &:before
+    sprite($menu-separator)
+    display inline-block
+    margin 0 16px
+    position relative
+    top -1px
+    content ''
+
+.layout
+  padding-top 47px
+
+.header
+  position relative
+
+.header__logo
+  float left
+  sprite($logo-main)
+  margin-top 33px
+
+.header__title
+  font-size 40px
+  font-weight 900
+  font-style italic
+  padding 30px 10px 30px 165px
+  width 590px
+  text-align right
+
+.header__title__honors
+  font-size 11px
+  font-style italic
+  font-weight 400
+  color #7e7e7e
+  margin-right 22px
+  padding-top 12px
+  width 400px
+  float right
+  text-align left
+
+  &:before
+    sprite($honors)
+    float left
+    margin-right 15px
+    content ''
+
+.header__send-resume
+  position absolute
+  top 40px
+  right 0
+
+.clear
+  clear both

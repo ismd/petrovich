@@ -1,0 +1,77 @@
+$honors_x = 0px;
+$honors_y = 76px;
+$honors_offset_x = 0px;
+$honors_offset_y = -76px;
+$honors_width = 324px;
+$honors_height = 70px;
+$honors_total_width = 324px;
+$honors_total_height = 228px;
+$honors_image = '../img/sprite.png';
+$honors_image_2x2 = '../img/sprite2x.png';
+$honors = 0px 76px 0px -76px 324px 70px 324px 228px '../img/sprite.png' '../img/sprite2x.png';
+$logo-main_x = 0px;
+$logo-main_y = 148px;
+$logo-main_offset_x = 0px;
+$logo-main_offset_y = -148px;
+$logo-main_width = 314px;
+$logo-main_height = 80px;
+$logo-main_total_width = 324px;
+$logo-main_total_height = 228px;
+$logo-main_image = '../img/sprite.png';
+$logo-main_image_2x2 = '../img/sprite2x.png';
+$logo-main = 0px 148px 0px -148px 314px 80px 324px 228px '../img/sprite.png' '../img/sprite2x.png';
+$logo_x = 0px;
+$logo_y = 16px;
+$logo_offset_x = 0px;
+$logo_offset_y = -16px;
+$logo_width = 240px;
+$logo_height = 58px;
+$logo_total_width = 324px;
+$logo_total_height = 228px;
+$logo_image = '../img/sprite.png';
+$logo_image_2x2 = '../img/sprite2x.png';
+$logo = 0px 16px 0px -16px 240px 58px 324px 228px '../img/sprite.png' '../img/sprite2x.png';
+$menu-separator_x = 0px;
+$menu-separator_y = 0px;
+$menu-separator_offset_x = 0px;
+$menu-separator_offset_y = 0px;
+$menu-separator_width = 14px;
+$menu-separator_height = 14px;
+$menu-separator_total_width = 324px;
+$menu-separator_total_height = 228px;
+$menu-separator_image = '../img/sprite.png';
+$menu-separator_image_2x2 = '../img/sprite2x.png';
+$menu-separator = 0px 0px 0px 0px 14px 14px 324px 228px '../img/sprite.png' '../img/sprite2x.png';
+
+spriteWidth($sprite) {
+  width: ($sprite[4] / 2);
+}
+
+spriteHeight($sprite) {
+  height: ($sprite[5] / 2);
+}
+
+spritePosition($sprite) {
+  background-position: ($sprite[2] / 2) ($sprite[3] / 2);
+}
+
+spriteImage($sprite) {
+  background-image: url($sprite[8]);
+}
+
+spriteImage2x2($sprite) {
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+		& {
+			background-image: url($sprite[9]);
+			background-size ($sprite[6] / 2) ($sprite[7] / 2) !important
+		}
+	}
+}
+
+sprite($sprite) {
+  spriteImage($sprite)
+  spriteImage2x2($sprite)
+  spritePosition($sprite)
+  spriteWidth($sprite)
+  spriteHeight($sprite)
+}

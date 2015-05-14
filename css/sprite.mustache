@@ -1,0 +1,53 @@
+{
+  // Default options
+  'functions': true
+}
+
+{{#items}}
+${{name}}_x = {{px.x}};
+${{name}}_y = {{px.y}};
+${{name}}_offset_x = {{px.offset_x}};
+${{name}}_offset_y = {{px.offset_y}};
+${{name}}_width = {{px.width}};
+${{name}}_height = {{px.height}};
+${{name}}_total_width = {{px.total_width}};
+${{name}}_total_height = {{px.total_height}};
+${{name}}_image = '{{{options.smallSpritePath}}}';
+${{name}}_image_2x2 = '{{{escaped_image}}}';
+${{name}} = {{px.x}} {{px.y}} {{px.offset_x}} {{px.offset_y}} {{px.width}} {{px.height}} {{px.total_width}} {{px.total_height}} '{{{options.smallSpritePath}}}' '{{{escaped_image}}}';
+{{/items}}
+
+{{#options.functions}}
+spriteWidth($sprite) {
+  width: ($sprite[4] / 2);
+}
+
+spriteHeight($sprite) {
+  height: ($sprite[5] / 2);
+}
+
+spritePosition($sprite) {
+  background-position: ($sprite[2] / 2) ($sprite[3] / 2);
+}
+
+spriteImage($sprite) {
+  background-image: url($sprite[8]);
+}
+
+spriteImage2x2($sprite) {
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+		& {
+			background-image: url($sprite[9]);
+			background-size ($sprite[6] / 2) ($sprite[7] / 2) !important
+		}
+	}
+}
+
+sprite($sprite) {
+  spriteImage($sprite)
+  spriteImage2x2($sprite)
+  spritePosition($sprite)
+  spriteWidth($sprite)
+  spriteHeight($sprite)
+}
+{{/options.functions}}

@@ -1,3 +1,6 @@
+.clear {
+  clear: both;
+}
 .button {
   font-size: 16px;
   color: #000;
@@ -128,7 +131,4 @@ body {
   position: absolute;
   top: 40px;
   right: 0;
-}
-.clear {
-  clear: both;
 }

@@ -1,9 +1,10 @@
-@require 'sprite'
 @require 'common'
 @require 'default'
+@require 'fonts'
+@require 'sprite'
 
 body
-  font 24px Helvetica, Arial, sans-serif
+  font 24px $font
 
 .layout
   width 960px
@@ -42,10 +43,11 @@ body
   margin-top 33px
 
 .header__title
+  font-family $fontHeavy
   font-size 40px
   font-weight 900
   font-style italic
-  padding 30px 10px 30px 165px
+  padding 30px 10px 30px 163px
   width 590px
   text-align right
 
@@ -53,12 +55,14 @@ body
   font-size 11px
   font-style italic
   font-weight 400
+  line-height 1.4em
   color #7e7e7e
-  margin-right 22px
-  padding-top 12px
+  margin-right 20px
+  padding-top 8px
   width 400px
   float right
   text-align left
+  font-family $font
 
   &:before
     sprite($honors)

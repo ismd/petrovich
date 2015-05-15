@@ -6,7 +6,6 @@
   color: #000;
   background: #ffdc18;
   padding: 8px 16px 9px;
-  border-radius: 2px;
 }
 .button:hover {
   color: #000;
@@ -33,6 +32,7 @@ a:hover {
   font-weight: normal;
   font-style: normal;
 }
+@import 'fotorama.css';
 body {
   font: 24px Helvetica, Arial, sans-serif;
 }
@@ -49,6 +49,8 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  background: #fff;
+  z-index: 1000;
 }
 .menu__item {
   display: inline-block;
@@ -137,7 +139,20 @@ body {
   height: 506px;
   position: relative;
   color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
+}
+.main-slider__background {
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.8)), color-stop(100%, rgba(246,245,242,0)));
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
+  background: -o-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
+  background: -ms-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
+  background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#cc000000", endColorstr="#00f6f5f2",GradientType=1 );
 }
 .main-slider__quote {
   padding: 74px 38px 0;

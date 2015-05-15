@@ -47,30 +47,70 @@ body
     font-size 40px
     font-weight 900
     font-style italic
-    padding 30px 10px 30px 163px
+    padding 30px 10px 0 163px
     width 590px
     text-align right
 
-    &__honors
-      font-size 11px
-      font-style italic
-      font-weight 400
-      line-height 1.4em
-      color #7e7e7e
-      margin-right 20px
-      padding-top 8px
-      width 400px
-      float right
-      text-align left
-      font-family $font
+  &__honors
+    font-size 11px
+    font-style italic
+    font-weight 400
+    line-height 1.4em
+    color #7e7e7e
+    margin-left 330px
+    padding-top 8px
+    width 400px
 
-      &:before
-        sprite($honors)
-        float left
-        margin-right 15px
-        content ''
+    &:before
+      sprite($honors)
+      float left
+      margin-right 15px
+      content ''
 
   &__send-resume
     position absolute
     top 40px
     right 0
+
+.main-slider
+  margin-top 47px
+
+  &__slide
+    width 960px
+    height 506px
+    position relative
+    color #fff
+    border-radius 5px
+
+  &__quote
+    padding 74px 38px 0
+    width 440px
+    font-size 19px
+    line-height 1.9em
+    position relative
+
+    strong
+      font-size 24px
+      line-height 1.9em
+
+    &:before
+      sprite($quote-open)
+      position absolute
+      top 79px
+      left 8px
+      content ''
+
+  &__author
+    font-size 19px
+    font-style italic
+    color #5b594a
+    margin-top -11px
+    padding-left 78px
+
+.quote
+  &__close
+    sprite($quote-close)
+    display inline-block
+    position relative
+    top -7px
+    left 5px

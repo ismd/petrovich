@@ -27,24 +27,32 @@
         </div>
 
         <div class="layout">
-            <div class="header">
+            <header class="header">
                 <div class="header__logo"></div>
-                <div class="header__title">
-                    Для тех, кто строит жизнь
-
-                    <div class="header__title__honors">
-                        Пятый год — самый привлекательный работодатель
-                        <div class="clear"></div>
-                    </div>
-                </div>
+                <div class="header__title">Для тех, кто строит жизнь</div>
                 <a href="javascript:void(0)"
                    class="button header__send-resume">Отправить резюме</a>
                 <div class="clear"></div>
+                <div class="header__honors">
+                    Пятый год — самый привлекательный работодатель
+                    <div class="clear"></div>
+                </div>
+            </header>
+
+            <div class="main-slider">
+                <div class="main-slider__slide"
+                     style="background-image: url('/pictures/main/slide-1.jpg');">
+                    <blockquote class="main-slider__quote quote">
+                        <strong>Я&nbsp;работаю в&nbsp;этой компании, потому что здесь есть возможность расти</strong>
+                        Можно устроиться, напрмер, оператором, и&nbsp;вырасти до&nbsp;администратора. Насклоько я&nbsp;знаю, половина &laquo;топов&raquo; компании когда-то устраивались на&nbsp;базовые должности.
+                        <i class="quote__close"></i>
+                    </blockquote>
+
+                    <div class="main-slider__author">Андрей Иванов</div>
+                </div>
             </div>
 
-            <div class="main-slider"></div>
-
-            <div class="footer">
+            <footer class="footer">
                 <div class="footer__item">
                     Строительный Торговый дом Петрович<br />
                     HR служба
@@ -59,7 +67,7 @@
                 <div class="footer__item">
                     <div class="logo-dev"></div>
                 </div>
-            </div>
+            </footer>
         </div>
     </body>
 </html>

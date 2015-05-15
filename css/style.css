@@ -67,7 +67,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .menu__item + .menu__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 114px !important;
+    background-size: 162px 148px !important;
   }
 }
 .layout {
@@ -79,7 +79,7 @@ body {
 .header__logo {
   float: left;
   background-image: url("../img/sprite.png");
-  background-position: 0px -74px;
+  background-position: 0px -108px;
   width: 157px;
   height: 40px;
   margin-top: 33px;
@@ -87,7 +87,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .header__logo {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 114px !important;
+    background-size: 162px 148px !important;
   }
 }
 .header__title {
@@ -95,26 +95,23 @@ body {
   font-size: 40px;
   font-weight: 900;
   font-style: italic;
-  padding: 30px 10px 30px 163px;
+  padding: 30px 10px 0 163px;
   width: 590px;
   text-align: right;
 }
-.header__title__honors {
+.header__honors {
   font-size: 11px;
   font-style: italic;
   font-weight: 400;
   line-height: 1.4em;
   color: #7e7e7e;
-  margin-right: 20px;
+  margin-left: 330px;
   padding-top: 8px;
   width: 400px;
-  float: right;
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif;
 }
-.header__title__honors:before {
+.header__honors:before {
   background-image: url("../img/sprite.png");
-  background-position: 0px -38px;
+  background-position: 0px -72px;
   width: 162px;
   height: 35px;
   float: left;
@@ -122,13 +119,73 @@ body {
   content: '';
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
-  .header__title__honors:before {
+  .header__honors:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 114px !important;
+    background-size: 162px 148px !important;
   }
 }
 .header__send-resume {
   position: absolute;
   top: 40px;
   right: 0;
+}
+.main-slider {
+  margin-top: 47px;
+}
+.main-slider__slide {
+  width: 960px;
+  height: 506px;
+  position: relative;
+  color: #fff;
+  border-radius: 5px;
+}
+.main-slider__quote {
+  padding: 74px 38px 0;
+  width: 440px;
+  font-size: 19px;
+  line-height: 1.9em;
+  position: relative;
+}
+.main-slider__quote strong {
+  font-size: 24px;
+  line-height: 1.9em;
+}
+.main-slider__quote:before {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -25px;
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  top: 79px;
+  left: 8px;
+  content: '';
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  .main-slider__quote:before {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 148px !important;
+  }
+}
+.main-slider__author {
+  font-size: 19px;
+  font-style: italic;
+  color: #5b594a;
+  margin-top: -11px;
+  padding-left: 78px;
+}
+.quote__close {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -8px;
+  width: 20px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  left: 5px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  .quote__close {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 148px !important;
+  }
 }

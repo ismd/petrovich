@@ -1,7 +1,9 @@
+@require 'fotorama.css'
+@require 'jquery.bxslider.css';
+@require 'normalize.css'
 @require 'common'
 @require 'default'
 @require 'fonts'
-@import 'fotorama.css'
 @require 'sprite'
 
 body
@@ -76,18 +78,27 @@ body
     right 0
 
 .main-slider
-  margin-top 47px
+  margin-top 50px
+
+  .bx-wrapper
+    margin 0
+
+  .bx-viewport
+    box-shadow none
+    border 0
+    left 0
+    border-radius 5px 5px 0 0
 
   &__slide
+    position relative
     width 960px
     height 506px
-    position relative
     color #fff
-    border-radius 5px
 
   &__background
     width 100%
     height 100%
+    margin-top -19px
     background -moz-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%)
     background -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.8)), color-stop(100%,rgba(246,245,242,0)))
     background -webkit-linear-gradient(left, rgba(0,0,0,0.8) 0%,rgba(246,245,242,0) 100%)
@@ -120,6 +131,40 @@ body
     color #5b594a
     margin-top -11px
     padding-left 78px
+
+  &__pager
+    background #f6f5f2
+    white-space nowrap
+    font-size 0
+
+  &__pager-item
+    width 25%
+    height 80px
+    display inline-block
+    white-space normal
+    vertical-align top
+    font-size 13px
+    color #5f5b50
+    padding 17px 10px 10px 85px
+    background-repeat no-repeat
+    box-sizing border-box
+    border 3px solid transparent
+    transition border-color .3s
+    line-height 1.4em
+
+    &.active
+      border-color #ffdf2e
+      cursor default
+
+      &:hover
+        opacity .99
+
+    strong
+      color #0f0e0b
+
+    &:hover
+      opacity .8
+      color #5f5b50
 
 .quote
   &__close

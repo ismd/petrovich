@@ -35,7 +35,6 @@
                 <div class="clear"></div>
                 <div class="header__honors">
                     Пятый год — самый привлекательный работодатель
-                    <div class="clear"></div>
                 </div>
             </header>
 

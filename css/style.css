@@ -62,7 +62,7 @@ body {
 }
 .menu__item + .menu__item:before {
   background-image: url("../img/sprite.png");
-  background-position: 0px -5px;
+  background-position: 0px 0px;
   width: 7px;
   height: 7px;
   display: inline-block;
@@ -74,25 +74,23 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .menu__item + .menu__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 153px !important;
+    background-size: 162px 148px !important;
   }
 }
 .menu__item--type-list:after {
-  background-image: url("../img/sprite.png");
-  background-position: 0px 0px;
-  width: 7px;
-  height: 4px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #444c50;
   display: inline-block;
   position: relative;
   top: -3px;
   left: 6px;
   content: '';
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
-  .menu__item--type-list:after {
-    background-image: url("../img/sprite2x.png");
-    background-size: 162px 153px !important;
-  }
+.menu__item--type-list:hover:after {
+  border-top-color: #cc3500;
 }
 .layout {
   padding-top: 47px;
@@ -103,7 +101,7 @@ body {
 .header__logo {
   float: left;
   background-image: url("../img/sprite.png");
-  background-position: 0px -113px;
+  background-position: 0px -108px;
   width: 157px;
   height: 40px;
   margin-top: 33px;
@@ -111,7 +109,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .header__logo {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 153px !important;
+    background-size: 162px 148px !important;
   }
 }
 .header__title {
@@ -135,7 +133,7 @@ body {
 }
 .header__honors:before {
   background-image: url("../img/sprite.png");
-  background-position: 0px -77px;
+  background-position: 0px -72px;
   width: 162px;
   height: 35px;
   float: left;
@@ -145,7 +143,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .header__honors:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 153px !important;
+    background-size: 162px 148px !important;
   }
 }
 .header__send-resume {
@@ -198,7 +196,7 @@ body {
 }
 .main-slider__quote:before {
   background-image: url("../img/sprite.png");
-  background-position: 0px -30px;
+  background-position: 0px -25px;
   width: 20px;
   height: 16px;
   position: absolute;
@@ -209,7 +207,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .main-slider__quote:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 153px !important;
+    background-size: 162px 148px !important;
   }
 }
 .main-slider__author {
@@ -258,7 +256,7 @@ body {
 }
 .quote__close {
   background-image: url("../img/sprite.png");
-  background-position: 0px -13px;
+  background-position: 0px -8px;
   width: 20px;
   height: 16px;
   display: inline-block;
@@ -269,6 +267,6 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .quote__close {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 153px !important;
+    background-size: 162px 148px !important;
   }
 }

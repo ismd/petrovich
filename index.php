@@ -129,6 +129,13 @@
                 </div>
             </div>
 
+            <h1>
+                Вакансии в городе
+                <select>
+                    <option value="">Санкт-Петербург</option>
+                </select>
+            </h1>
+
             <footer class="footer">
                 <div class="footer__item">
                     Строительный Торговый дом Петрович<br />

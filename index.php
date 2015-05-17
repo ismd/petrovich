@@ -20,9 +20,9 @@
             <a href="javascript:void(0)"
                class="menu__item">Вакансии</a>
             <a href="javascript:void(0)"
-               class="menu__item">Культура</a>
+               class="menu__item menu__item--type-list">Культура</a>
             <a href="javascript:void(0)"
-               class="menu__item">Обучение</a>
+               class="menu__item menu__item--type-list">Обучение</a>
             <a href="javascript:void(0)"
                class="menu__item">Благотворительность</a>
         </div>

@@ -133,6 +133,7 @@ body {
 }
 .menu__item {
   display: inline-block;
+  position: relative;
 }
 .menu__item + .menu__item:before {
   background-image: url("../img/sprite.png");
@@ -151,7 +152,7 @@ body {
     background-size: 162px 514px !important;
   }
 }
-.menu__item--type-list:after {
+.menu__item-list:after {
   width: 0;
   height: 0;
   border-left: 4px solid transparent;
@@ -163,8 +164,33 @@ body {
   left: 6px;
   content: '';
 }
-.menu__item--type-list:hover:after {
+.menu__item-list--state-opened + .menu__dropdown {
+  display: block;
+}
+.menu__item-list:hover:after {
   border-top-color: #cc3500;
+}
+.menu__dropdown {
+  position: absolute;
+  top: 10px;
+  left: 28px;
+  background: #fff;
+  z-index: 50;
+  list-style-type: none;
+  box-shadow: 10px 10px 50px rgba(0,0,0,0.15);
+  padding: 0;
+  text-align: left;
+  width: 235px;
+  display: none;
+}
+.menu__dropdown-item {
+  display: block;
+  min-height: 30px;
+  padding: 7px 5px 0 16px;
+}
+.menu__dropdown-item:hover {
+  background: #ffdc18;
+  color: #000;
 }
 .header {
   position: relative;

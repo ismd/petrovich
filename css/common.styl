@@ -9,6 +9,9 @@ transition()
   -o-transition arguments
   transition arguments
 
+a
+  outline 0
+
 .clear
   clear both
 
@@ -41,3 +44,24 @@ transition()
   &--type-big
     font-size 24px
     padding 12px 24px 10px
+
+.select
+  &--type-transparent
+    & + .select2
+      .select2-selection
+        border-color transparent
+        background transparent
+
+        &__rendered
+          color #06418a
+
+        &__arrow b
+          border-top-color #06418a
+
+      &.select2-container--open
+        .select2-selection__arrow b
+          border-bottom-color #06418a
+
+.select2
+  *
+    outline 0

@@ -10,6 +10,7 @@
         <script src="/js/jquery-2.1.4.min.js"></script>
         <script src="/js/jquery.bxslider.min.js"></script>
         <script src="/js/fotorama.js"></script>
+        <script src="/js/select2.min.js"></script>
         <script src="/js/main.js"></script>
     </head>
 
@@ -134,27 +135,29 @@
 
         <div class="vacancy-slider">
             <div class="vacancy-slider__gradient">
-                <div class="vacancy-slider__center">
+                <div class="vacancy-slider__select-block">
                     <h1>
                         Вакансии в городе
-                        <select>
+                        <select class="vacancy-slider__select select select--type-transparent">
                             <option value="">Санкт-Петербург</option>
                         </select>
                     </h1>
 
-                    <div class="vacancy-slider__additional-text">
-                        Мы&nbsp;не&nbsp;останавливаемся в&nbsp;своем развитии, поэтому нам всегда нужны хорошие люди
-                    </div>
+                    <div class="vacancy-slider__center">
+                        <div class="vacancy-slider__additional-text">
+                            Мы&nbsp;не&nbsp;останавливаемся в&nbsp;своем развитии, поэтому нам всегда нужны хорошие люди
+                        </div>
 
-                    <div class="vacancy-slider__pages">
-                        <a href="javascript:void(0)"
-                           class="vacancy-slider__page vacancy-slider__page--state-active">Офис</a>
-                        <a href="javascript:void(0)"
-                           class="vacancy-slider__page">Склад</a>
-                        <a href="javascript:void(0)"
-                           class="vacancy-slider__page">Магазин</a>
-                        <a href="javascript:void(0)"
-                           class="vacancy-slider__page">Студентам</a>
+                        <div class="vacancy-slider__pages">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__page vacancy-slider__page--state-active">Офис</a>
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__page">Склад</a>
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__page">Магазин</a>
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__page">Студентам</a>
+                        </div>
                     </div>
                 </div>
 

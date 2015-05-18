@@ -1,5 +1,6 @@
 @require 'fotorama.css'
 @require 'jquery.bxslider.css';
+@require 'select2.min.css'
 @require 'normalize.css'
 @require 'common'
 @require 'default'
@@ -230,18 +231,31 @@ body
 .vacancy-slider
   padding-top 50px
 
-  &__center
+  &__select-block
     text-align center
     font-size 19px
-    color #89877b
-    width 480px
-    margin 0 auto
 
     h1
       font-size 30px
       color #000
       white-space nowrap
-      margin-bottom 3px
+      margin-bottom 7px
+
+  &__select
+    width 300px
+
+    & + .select2
+      margin-top -6px
+      margin-left -17px
+
+      .select2-selection__rendered
+        font-size 30px
+        height 35px
+
+  &__center
+    width 480px
+    margin 0 auto
+    color #89877b
 
   &__additional-text
     line-height 1.95em

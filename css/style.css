@@ -84,7 +84,7 @@ body {
 }
 .menu__item + .menu__item:before {
   background-image: url("../img/sprite.png");
-  background-position: 0px -2px;
+  background-position: 0px -9px;
   width: 7px;
   height: 7px;
   display: inline-block;
@@ -96,7 +96,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .menu__item + .menu__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .menu__item--type-list:after {
@@ -120,7 +120,7 @@ body {
 .header__logo {
   float: left;
   background-image: url("../img/sprite.png");
-  background-position: 0px -110px;
+  background-position: 0px -133px;
   width: 157px;
   height: 40px;
   margin-top: 33px;
@@ -128,7 +128,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .header__logo {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .header__title {
@@ -152,7 +152,7 @@ body {
 }
 .header__honors:before {
   background-image: url("../img/sprite.png");
-  background-position: 0px -74px;
+  background-position: 0px -97px;
   width: 162px;
   height: 35px;
   float: left;
@@ -162,7 +162,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .header__honors:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .header__send-resume {
@@ -172,12 +172,58 @@ body {
 }
 .footer {
   border-top: 1px solid #c6c6c6;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  font-size: 11px;
+  line-height: 1.45em;
 }
 .footer__item {
-  font-size: 11px;
-  width: 25%;
   display: inline-block;
   vertical-align: top;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+}
+.footer__item:first-child {
+  padding-left: 0;
+}
+.footer__item:first-child:before {
+  background: transparent;
+}
+.footer__item:before {
+  position: absolute;
+  top: 7px;
+  left: -7px;
+  background-image: url("../img/sprite.png");
+  background-position: 0px -2px;
+  width: 6px;
+  height: 6px;
+  content: '';
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  .footer__item:before {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 514px !important;
+  }
+}
+.footer__logo {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+.footer__logo-dev {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -17px;
+  width: 49px;
+  height: 15px;
+  margin-top: 4px;
+  display: block;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  .footer__logo-dev {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 514px !important;
+  }
 }
 .main-slider {
   margin-top: 50px;
@@ -224,7 +270,7 @@ body {
 }
 .main-slider__quote:before {
   background-image: url("../img/sprite.png");
-  background-position: 0px -27px;
+  background-position: 0px -33px;
   width: 20px;
   height: 16px;
   position: absolute;
@@ -235,7 +281,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .main-slider__quote:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .main-slider__author {
@@ -284,7 +330,7 @@ body {
 }
 .quote__close {
   background-image: url("../img/sprite.png");
-  background-position: 0px -10px;
+  background-position: 0px -50px;
   width: 20px;
   height: 16px;
   display: inline-block;
@@ -295,7 +341,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .quote__close {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider {
@@ -375,7 +421,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider__item--office-1:after,
@@ -389,7 +435,7 @@ body {
 }
 .vacancy-slider__item--office-1:after {
   background-image: url("../img/sprite.png");
-  background-position: 0px -151px;
+  background-position: 0px -174px;
   width: 45px;
   height: 41px;
   top: -53px;
@@ -398,12 +444,12 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item--office-1:after {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider__item--office-2:after {
   background-image: url("../img/sprite.png");
-  background-position: 0px -193px;
+  background-position: 0px -216px;
   width: 41px;
   height: 46px;
   top: -24px;
@@ -412,12 +458,12 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item--office-2:after {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider__item--office-3:after {
   background-image: url("../img/sprite.png");
-  background-position: 0px -344px;
+  background-position: 0px -367px;
   width: 78px;
   height: 67px;
   top: -77px;
@@ -426,12 +472,12 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item--office-3:after {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider__item--office-4:after {
   background-image: url("../img/sprite.png");
-  background-position: 0px -412px;
+  background-position: 0px -435px;
   width: 70px;
   height: 79px;
   top: -56px;
@@ -440,12 +486,12 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item--office-4:after {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider__item--office-5:after {
   background-image: url("../img/sprite.png");
-  background-position: 0px -288px;
+  background-position: 0px -311px;
   width: 44px;
   height: 55px;
   top: -50px;
@@ -454,12 +500,12 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item--office-5:after {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider__item--office-6:after {
   background-image: url("../img/sprite.png");
-  background-position: 0px -240px;
+  background-position: 0px -263px;
   width: 47px;
   height: 47px;
   top: -40px;
@@ -468,7 +514,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item--office-6:after {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 491px !important;
+    background-size: 162px 514px !important;
   }
 }
 .vacancy-slider__title {

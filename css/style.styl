@@ -95,12 +95,40 @@ body
 
 .footer
   border-top 1px solid #c6c6c6
+  padding-top 15px
+  padding-bottom 35px
+  font-size 11px
+  line-height 1.45em
 
   &__item
-    font-size 11px
-    width 25%
     display inline-block
     vertical-align top
+    padding-left 24px
+    padding-right 24px
+    position relative
+
+    &:first-child
+      padding-left 0
+
+      &:before
+        background transparent
+
+    &:before
+      position absolute
+      top 7px
+      left -7px
+      sprite($footer-separator)
+      content ''
+
+  &__logo
+    display inline-block
+    vertical-align top
+    float right
+
+  &__logo-dev
+    sprite($footer-dev-logo)
+    margin-top 4px
+    display block
 
 .main-slider
   margin-top 50px

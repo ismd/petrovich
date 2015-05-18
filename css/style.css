@@ -53,6 +53,15 @@ a {
 .select--type-transparent + .select2.select2-container--open .select2-selection__arrow b {
   border-bottom-color: #06418a;
 }
+.select--type-transparent + .select2.select2-container--open:hover .select2-selection__arrow b {
+  border-bottom-color: #cc3500;
+}
+.select--type-transparent + .select2:hover .select2-selection__rendered {
+  color: #cc3500;
+}
+.select--type-transparent + .select2:hover .select2-selection__arrow b {
+  border-top-color: #cc3500;
+}
 .select2 * {
   outline: 0;
 }

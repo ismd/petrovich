@@ -139,7 +139,11 @@
                     <h1>
                         Вакансии в городе
                         <select class="vacancy-slider__select select select--type-transparent">
-                            <option value="">Санкт-Петербург</option>
+                            <option value="1">Санкт-Петербург</option>
+                            <option value="2">Ленинградская область</option>
+                            <option value="3">Новгород</option>
+                            <option value="4">Петрозаводск</option>
+                            <option value="5">Выборг</option>
                         </select>
                     </h1>
 

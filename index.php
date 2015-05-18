@@ -129,12 +129,73 @@
                 </div>
             </div>
 
-            <h1>
-                Вакансии в городе
-                <select>
-                    <option value="">Санкт-Петербург</option>
-                </select>
-            </h1>
+            <div class="vacancy-slider">
+                <div class="vacancy-slider__center">
+                    <h1>
+                        Вакансии в городе
+                        <select>
+                            <option value="">Санкт-Петербург</option>
+                        </select>
+                    </h1>
+
+                    <div class="vacancy-slider__additional-text">
+                        Мы&nbsp;не&nbsp;останавливаемся в&nbsp;своем развитии, поэтому нам всегда нужны хорошие люди
+                    </div>
+
+                    <div class="vacancy-slider__pages">
+                        <a href="javascript:void(0)"
+                           class="vacancy-slider__page vacancy-slider__page--state-active">Офис</a>
+                        <a href="javascript:void(0)"
+                           class="vacancy-slider__page">Склад</a>
+                        <a href="javascript:void(0)"
+                           class="vacancy-slider__page">Магазин</a>
+                        <a href="javascript:void(0)"
+                           class="vacancy-slider__page">Студентам</a>
+                    </div>
+                </div>
+
+                <div class="vacancy-slider__list">
+                    <div class="vacancy-slider__row">
+                        <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                            <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                        </div>
+
+                        <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Менеджер интернет проектов</a>
+                            <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
+                        </div>
+
+                        <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                            <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                        </div>
+                    </div>
+
+                    <div class="vacancy-slider__row">
+                        <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Руководитель товарного направления</a>
+                            <div class="vacancy-slider__description">Работа с поставщиками</div>
+                        </div>
+
+                        <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Инженер ПТО</a>
+                            <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
+                        </div>
+
+                        <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Остальные вакансии</a>
+                            <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <footer class="footer">
                 <div class="footer__item">

@@ -189,3 +189,126 @@ body
     position relative
     top -7px
     left 5px
+
+.vacancy-slider
+  padding-top 50px
+
+  &__center
+    text-align center
+    font-size 19px
+    color #89877b
+    width 480px
+    margin 0 auto
+
+    h1
+      font-size 30px
+      color #000
+      white-space nowrap
+      margin-bottom 3px
+
+  &__additional-text
+    line-height 1.95em
+
+  &__pages
+    border 1px solid #ffdc18
+    display inline-block
+    font-size 0
+    margin-top 29px
+
+  &__page
+    border-left 1px solid #ffdc18
+    padding 8px 26px
+    display inline-block
+    font-size 18px
+    color #000
+
+    &:first-child
+      border-left-color transparent
+
+    &--state-active
+      background #ffdc18
+
+      &:hover
+        color #000
+        cursor default
+
+  &__list
+    padding-top 55px
+    border-bottom 1px solid #d5c59f
+    width 880px
+    margin-left 40px
+    padding-bottom 2px
+
+  &__row
+    padding-bottom 41px
+
+  &__item
+    display inline-block
+    width 30%
+    vertical-align top
+    position relative
+    padding-left 37px
+
+    &:first-child
+      padding-left 0
+
+      &:before
+        left -24px
+
+    &:before
+      position absolute
+      top 14px
+      left 13px
+      sprite($vacancy-slider-item-before)
+      content ''
+
+    &--office-1:after,
+    &--office-2:after,
+    &--office-3:after,
+    &--office-4:after,
+    &--office-5:after,
+    &--office-6:after
+      position absolute
+      content ''
+
+    &--office-1:after
+      sprite($vacancy-slider-item-1)
+      top -53px
+      left 65px
+
+    &--office-2:after
+      sprite($vacancy-slider-item-2)
+      top -24px
+      right 0
+
+    &--office-3:after
+      sprite($vacancy-slider-item-3)
+      top -77px
+      right 17px
+
+    &--office-4:after
+      sprite($vacancy-slider-item-4)
+      top -56px
+      left -77px
+
+    &--office-5:after
+      sprite($vacancy-slider-item-5)
+      top -50px
+      left -5px
+
+    &--office-6:after
+      sprite($vacancy-slider-item-6)
+      top -40px
+      right 27px
+
+  &__title
+    font-size 18px
+    font-weight bold
+    color #002d70
+
+  &__description
+    font-size 14px
+    font-style italic
+    color #7e7e7e
+    padding-top 7px
+    line-height 1.8em

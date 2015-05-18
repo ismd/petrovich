@@ -481,7 +481,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fff2d4',GradientType=0 );
 }
 .drivers-search {
-  width: 842px;
+  width: 880px;
   height: 207px;
   border-top: 1px solid #d5c59f;
   padding-top: 140px;
@@ -490,7 +490,6 @@ body {
 }
 .drivers-search__content {
   margin-top: -90px;
-  margin-left: -20px;
   position: absolute;
 }
 .drivers-search__image,

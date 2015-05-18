@@ -32,6 +32,10 @@
   background: #cc3500;
   border-color: #cc3500;
 }
+.button--type-big {
+  font-size: 24px;
+  padding: 12px 24px 10px;
+}
 a {
   text-decoration: none;
   color: #444c50;
@@ -165,6 +169,15 @@ body {
   position: absolute;
   top: 40px;
   right: 0;
+}
+.footer {
+  border-top: 1px solid #c6c6c6;
+}
+.footer__item {
+  font-size: 11px;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
 }
 .main-slider {
   margin-top: 50px;
@@ -526,4 +539,63 @@ body {
 }
 .drivers-search__image:last-child {
   right: 0;
+}
+.main-about {
+  position: relative;
+  padding-top: 45px;
+  height: 463px;
+}
+.main-about__left,
+.main-about__right {
+  position: absolute;
+  top: 0;
+  width: 480px;
+  height: 508px;
+}
+.main-about__left {
+  left: -40px;
+}
+.main-about__right {
+  right: -40px;
+}
+.main-about__text {
+  margin: 0 auto;
+  width: 500px;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+}
+.main-about__additional-text {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #2d2d2d;
+  padding-top: 15px;
+  line-height: 1.6em;
+}
+.main-about__count {
+  font-size: 32px;
+  color: #a79786;
+}
+.main-about__number {
+  position: relative;
+  top: 17px;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+}
+.main-about__send-resume {
+  margin-top: 34px;
+}
+.main-about__vacancies {
+  font-size: 14px;
+  color: #404040;
+  padding-top: 112px;
+}
+.main-about__vacancy-item {
+  display: inline-block;
+  font-size: 13px;
+  color: #838383;
+  margin: 6px 7px;
 }

@@ -38,7 +38,9 @@
                     Пятый год — самый привлекательный работодатель
                 </div>
             </header>
+        </div>
 
+        <div class="layout">
             <div class="main-slider">
                 <div class="main-bxslider">
                     <div class="main-slider__slide"
@@ -227,14 +229,47 @@
         </div>
 
         <div class="layout">
+            <div class="main-about">
+                <div class="main-about__left"
+                     style="background-image: url('/pictures/main/about-left.png');"></div>
+                <div class="main-about__right"
+                     style="background-image: url('/pictures/main/about-right.png');"></div>
+
+                <div class="main-about__text">
+                    <div class="main-about__count">
+                        Нас уже
+                        <span class="main-about__number">2510</span>
+                        человек
+                    </div>
+
+                    <div class="main-about__additional-text">И вы можете стать одним из нас</div>
+
+                    <a href="javascript:void(0)"
+                       class="main-about__send-resume button button--type-big">Отправить резюме</a>
+
+                    <div class="main-about__vacancies">
+                        Вакансии на других сайтах<br />
+
+                        <a href="javascript:void(0)"
+                           class="main-about__vacancy-item">hh.ru</a>
+                        <a href="javascript:void(0)"
+                           class="main-about__vacancy-item">linkedin.com</a>
+                        <a href="javascript:void(0)"
+                           class="main-about__vacancy-item">superjob.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout">
             <footer class="footer">
                 <div class="footer__item">
                     Строительный Торговый дом Петрович<br />
-                    HR служба
+                    <i>HR служба</i>
                 </div>
                 <div class="footer__item">
                     Контактные данные отдела кадров<br />
-                    personal@stdp.ru +7 (812) 622-17-07
+                    <b>personal@stdp.ru +7 (812) 622-17-07</b>
                 </div>
                 <div class="footer__item">
                     При использовании материалов с сайта ссылка на источник обязательна.

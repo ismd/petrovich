@@ -98,6 +98,8 @@ body {
   right: 0;
   background: #fff;
   z-index: 1000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .menu__item {
   display: inline-block;

@@ -27,7 +27,7 @@
                class="menu__item">Благотворительность</a>
         </div>
 
-        <div class="layout">
+        <div class="layout layout--type-main">
             <header class="header">
                 <div class="header__logo"></div>
                 <div class="header__title">Для тех, кто строит жизнь</div>
@@ -128,8 +128,10 @@
                     </a>
                 </div>
             </div>
+        </div>
 
-            <div class="vacancy-slider">
+        <div class="vacancy-slider">
+            <div class="vacancy-slider__gradient">
                 <div class="vacancy-slider__center">
                     <h1>
                         Вакансии в городе
@@ -154,77 +156,77 @@
                     </div>
                 </div>
 
-                <div class="vacancy-slider__gradient">
-                    <div class="vacancy-slider__list">
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-1">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-2">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Менеджер интернет проектов</a>
-                                <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-3">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
-                            </div>
+                <div class="vacancy-slider__list">
+                    <div class="vacancy-slider__row">
+                        <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                            <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
                         </div>
 
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-4">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Руководитель товарного направления</a>
-                                <div class="vacancy-slider__description">Работа с поставщиками</div>
-                            </div>
+                        <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Менеджер интернет проектов</a>
+                            <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
+                        </div>
 
-                            <div class="vacancy-slider__item vacancy-slider__item--office-5">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Инженер ПТО</a>
-                                <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-6">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Остальные вакансии</a>
-                                <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
-                            </div>
+                        <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                            <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
                         </div>
                     </div>
 
-                    <div class="drivers-search">
-                        <img src="/img/main/car-1.png"
-                             width="89"
-                             class="drivers-search__image"
-                             alt="" />
-
-                        <div class="drivers-search__content">
-                            <div class="drivers-search__text">
-                                <h3>Ищем водителей</h3>
-                                <p>Нам всегда нужны водители любой категории, со своим  транспортом.</p>
-
-                                <a href="javascript:void(0)"
-                                   class="drivers-search__button button button--alt-1">Я – водитель</a>
-                            </div>
-
-                            <img src="/img/main/car-2.png"
-                                 width="524"
-                                 alt="" />
+                    <div class="vacancy-slider__row">
+                        <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Руководитель товарного направления</a>
+                            <div class="vacancy-slider__description">Работа с поставщиками</div>
                         </div>
 
-                        <img src="/img/main/car-3.png"
-                             width="62"
-                             class="drivers-search__image"
-                             alt="" />
+                        <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Инженер ПТО</a>
+                            <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
+                        </div>
+
+                        <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                            <a href="javascript:void(0)"
+                               class="vacancy-slider__title">Остальные вакансии</a>
+                            <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="drivers-search">
+                    <img src="/img/main/car-1.png"
+                         width="89"
+                         class="drivers-search__image"
+                         alt="" />
+
+                    <div class="drivers-search__content">
+                        <div class="drivers-search__text">
+                            <h3>Ищем водителей</h3>
+                            <p>Нам всегда нужны водители любой категории, со своим  транспортом.</p>
+
+                            <a href="javascript:void(0)"
+                               class="drivers-search__button button button--alt-1">Я – водитель</a>
+                        </div>
+
+                        <img src="/img/main/car-2.png"
+                             width="524"
+                             alt="" />
+                    </div>
+
+                    <img src="/img/main/car-3.png"
+                         width="62"
+                         class="drivers-search__image"
+                         alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="layout">
             <footer class="footer">
                 <div class="footer__item">
                     Строительный Торговый дом Петрович<br />

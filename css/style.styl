@@ -13,6 +13,9 @@ body
   width 960px
   margin 0 auto
 
+  &--type-main
+    padding-top 47px
+
 .menu
   font-size 17px
   text-align center
@@ -51,9 +54,6 @@ body
 
       &:hover:after
         border-top-color #cc3500
-
-.layout
-  padding-top 47px
 
 .header
   position relative
@@ -235,8 +235,8 @@ body
   &__list
     padding-top 55px
     width 880px
-    margin-left 40px
     padding-bottom 2px
+    margin 0 auto
 
   &__row
     padding-bottom 41px
@@ -312,16 +312,27 @@ body
     padding-top 7px
     line-height 1.8em
 
+  &__gradient
+    background rgb(255,255,255)
+    background -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,242,212,1) 100%)
+    background -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,242,212,1)))
+    background -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
+    background -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
+    background -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
+    background linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
+    filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fff2d4',GradientType=0 )")
+
 .drivers-search
-  width 880px
-  height 200px
+  width 842px
+  height 207px
   border-top 1px solid #d5c59f
   padding-top 140px
-  padding-left 39px
   white-space nowrap
+  margin 0 auto
 
   &__content
     margin-top -90px
+    margin-left -20px
     position absolute
 
   &__image,

@@ -279,7 +279,7 @@
                                     <div class="vacancy-slider__icon vacancy-slider__icon--storage-1"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений. Руководство менеджерами товарных направлений. Руководство менеджерами товарных направлений.</div>
                                 </div>
 
                                 <div class="vacancy-slider__item">

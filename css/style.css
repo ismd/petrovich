@@ -504,8 +504,8 @@ body {
   padding-bottom: 2px;
   position: absolute;
   margin-left: 50%;
+  top: 1000px;
   left: -440px;
-  bottom: 0;
 }
 .vacancy-slider__list--position-left {
   left: -100%;

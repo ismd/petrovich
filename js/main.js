@@ -30,7 +30,23 @@ $(function() {
         vacancyLeft         = parseInt($currentVacancy.css('left')),
         vacancyActiveClass  = 'vacancy-slider__page--state-active',
         vacancyIconClass    = 'vacancy-slider__icon',
-        iconTop             = [];
+        iconTop             = [],
+        minVacancyHeight    = 340,
+        maxVacancyHeight    = 0;
+
+    $.each($vacancyList, function(i, vacancy) {
+        var height = $(vacancy).outerHeight();
+
+        if (height > maxVacancyHeight) {
+            maxVacancyHeight = height;
+        }
+
+        if (maxVacancyHeight < minVacancyHeight) {
+            maxVacancyHeight = minVacancyHeight;
+        }
+    });
+
+    $('.vacancy-slider__list-wrapper').height(maxVacancyHeight);
 
     $.each($vacancyList.find('.' + vacancyIconClass), function(i, icon) {
         iconTop.push(parseInt($(icon).css('top')));

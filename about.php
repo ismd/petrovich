@@ -47,7 +47,7 @@
                    class="about-people-slider__slide-link">
                     <img src="/pictures/about/slide-1.jpg" alt="" />
                     <div class="about-people-slider__slide-name">Андрей Иванов</div>
-                    <div class="about-people-slider__slide-description">Про развитии в компании</div>
+                    <div class="about-people-slider__slide-description">Про развитие в компании</div>
                 </a>
             </div>
 

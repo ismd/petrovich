@@ -28,7 +28,13 @@ $(function() {
         currentVacancySlide = 0,
         $currentVacancy     = $vacancyList.eq(currentVacancySlide),
         vacancyLeft         = parseInt($currentVacancy.css('left')),
-        vacancyActiveClass  = 'vacancy-slider__page--state-active';
+        vacancyActiveClass  = 'vacancy-slider__page--state-active',
+        vacancyIconClass    = 'vacancy-slider__icon',
+        iconTop             = [];
+
+    $.each($vacancyList.find('.' + vacancyIconClass), function(i, icon) {
+        iconTop.push(parseInt($(icon).css('top')));
+    });
 
     $vacancyPages.click(function() {
         var $this       = $(this),
@@ -53,8 +59,21 @@ $(function() {
             $currentVacancy.css('left', -windowWidth);
         }
 
+        var $icons = $currentVacancy.find('.' + vacancyIconClass);
+        $icons.css({
+            opacity: 0,
+            top: -500
+        });
+
         $currentVacancy.animate({
             left: vacancyLeft
+        }, function() {
+            $.each($icons, function(i, icon) {
+                $(icon).animate({
+                    opacity: 1,
+                    top: iconTop[i]
+                });
+            });
         });
 
         currentVacancySlide = index;

@@ -226,19 +226,22 @@
                         <!-- Офис -->
                         <div class="js-vacancy-list vacancy-slider__list">
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--office-1"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--office-2"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Менеджер интернет проектов</a>
                                     <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--office-3"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
@@ -246,19 +249,22 @@
                             </div>
 
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--office-4"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Руководитель товарного направления</a>
                                     <div class="vacancy-slider__description">Работа с поставщиками</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--office-5"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Инженер ПТО</a>
                                     <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--office-6"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Остальные вакансии</a>
                                     <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
@@ -269,19 +275,22 @@
                         <!-- Склад -->
                         <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--storage-1"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--storage-2"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Менеджер интернет проектов</a>
                                     <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--storage-3"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
@@ -289,19 +298,22 @@
                             </div>
 
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--storage-4"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Руководитель товарного направления</a>
                                     <div class="vacancy-slider__description">Работа с поставщиками</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--storage-5"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Инженер ПТО</a>
                                     <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--storage-6"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Остальные вакансии</a>
                                     <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
@@ -312,19 +324,22 @@
                         <!-- Магазин -->
                         <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--store-1"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--store-2"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Менеджер интернет проектов</a>
                                     <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--store-3"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
@@ -332,19 +347,22 @@
                             </div>
 
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--store-4"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Руководитель товарного направления</a>
                                     <div class="vacancy-slider__description">Работа с поставщиками</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--store-5"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Инженер ПТО</a>
                                     <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--store-6"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Остальные вакансии</a>
                                     <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
@@ -355,19 +373,22 @@
                         <!-- Студентам -->
                         <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--students-1"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--students-2"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Менеджер интернет проектов</a>
                                     <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--students-3"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
                                     <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
@@ -375,19 +396,22 @@
                             </div>
 
                             <div class="vacancy-slider__row">
-                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--students-4"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Руководитель товарного направления</a>
                                     <div class="vacancy-slider__description">Работа с поставщиками</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--students-5"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Инженер ПТО</a>
                                     <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
                                 </div>
 
-                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                <div class="vacancy-slider__item">
+                                    <div class="vacancy-slider__icon vacancy-slider__icon--students-6"></div>
                                     <a href="javascript:void(0)"
                                        class="vacancy-slider__title">Остальные вакансии</a>
                                     <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>

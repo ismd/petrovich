@@ -344,6 +344,57 @@ body
   &__row
     padding-bottom 41px
 
+  &__icon
+    position absolute
+
+    &--office-1,
+    &--storage-1,
+    &--store-1,
+    &--students-1
+      sprite($vacancy-slider-item-1)
+      top -53px
+      left 65px
+
+    &--office-2,
+    &--storage-2,
+    &--store-2,
+    &--students-2
+      sprite($vacancy-slider-item-2)
+      top -24px
+      right 0
+
+    &--office-3,
+    &--storage-3,
+    &--store-3,
+    &--students-3
+      sprite($vacancy-slider-item-3)
+      top -77px
+      right 17px
+
+    &--office-4,
+    &--storage-4,
+    &--store-4,
+    &--students-4
+      sprite($vacancy-slider-item-4)
+      top -56px
+      left -77px
+
+    &--office-5,
+    &--storage-5,
+    &--store-5,
+    &--students-5
+      sprite($vacancy-slider-item-5)
+      top -50px
+      left -5px
+
+    &--office-6,
+    &--storage-6,
+    &--store-6,
+    &--students-6
+      sprite($vacancy-slider-item-6)
+      top -40px
+      right 27px
+
   &__item
     display inline-block
     width 30%
@@ -363,45 +414,6 @@ body
       left 13px
       sprite($vacancy-slider-item-before)
       content ''
-
-    &--office-1:after,
-    &--office-2:after,
-    &--office-3:after,
-    &--office-4:after,
-    &--office-5:after,
-    &--office-6:after
-      position absolute
-      content ''
-
-    &--office-1:after
-      sprite($vacancy-slider-item-1)
-      top -53px
-      left 65px
-
-    &--office-2:after
-      sprite($vacancy-slider-item-2)
-      top -24px
-      right 0
-
-    &--office-3:after
-      sprite($vacancy-slider-item-3)
-      top -77px
-      right 17px
-
-    &--office-4:after
-      sprite($vacancy-slider-item-4)
-      top -56px
-      left -77px
-
-    &--office-5:after
-      sprite($vacancy-slider-item-5)
-      top -50px
-      left -5px
-
-    &--office-6:after
-      sprite($vacancy-slider-item-6)
-      top -40px
-      right 27px
 
   &__title
     font-size 18px

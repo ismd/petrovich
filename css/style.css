@@ -459,6 +459,9 @@ body {
   display: inline-block;
   font-size: 0;
   margin-top: 29px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .vacancy-slider__page {
   border-left: 1px solid #ffdc18;
@@ -466,6 +469,10 @@ body {
   display: inline-block;
   font-size: 18px;
   color: #000;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 .vacancy-slider__page:first-child {
   border-left-color: transparent;
@@ -477,11 +484,24 @@ body {
   color: #000;
   cursor: default;
 }
+.vacancy-slider__list-wrapper {
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+}
 .vacancy-slider__list {
   padding-top: 55px;
   width: 880px;
   padding-bottom: 2px;
-  margin: 0 auto;
+  position: absolute;
+  margin-left: 50%;
+  left: -440px;
+}
+.vacancy-slider__list--position-left {
+  left: -100%;
+}
+.vacancy-slider__list--position-right {
+  left: 100%;
 }
 .vacancy-slider__row {
   padding-bottom: 41px;

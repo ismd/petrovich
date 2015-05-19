@@ -136,4 +136,35 @@ $(function() {
 
         map.geoObjects.add(placemark);
     }
+
+    // Боковая панель на странице "О компании"
+    var $aboutItems      = $('.js-about-sidepanel-item'),
+        aboutActiveClass = 'about-sidepanel__item--state-active',
+        $aboutPageItems  = [];
+
+    $.each($aboutItems, function(i, item) {
+        $aboutPageItems.push($($(item).data('id')));
+    });
+
+    $aboutItems.click(function(ev) {
+        var $this = $(this);
+
+        if ($this.hasClass(aboutActiveClass)) {
+            return;
+        }
+
+        $.scrollTo($this.data('id'), 400);
+    });
+
+    $(window).scroll(function(ev) {
+        var scrollTop = $(window).scrollTop();
+
+        for (var i = 0; i < $aboutPageItems.length; i++) {
+            if ($aboutPageItems[i].offset().top > scrollTop - 100) {
+                $aboutItems.removeClass(aboutActiveClass);
+                $aboutItems.eq(i).addClass(aboutActiveClass);
+                return;
+            }
+        }
+    });
 });

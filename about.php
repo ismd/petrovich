@@ -1,18 +1,44 @@
 <? require '_header.php' ?>
 
+<div class="about-sidepanel">
+    <a href="javascript:void(0)"
+       class="js-about-sidepanel-item about-sidepanel__item about-sidepanel__item--type-1 about-sidepanel__item--state-active"
+       data-id="body">Начало</a>
+
+    <a href="javascript:void(0)"
+       class="js-about-sidepanel-item about-sidepanel__item about-sidepanel__item--type-2"
+       data-id="#about-mission">Миссия</a>
+
+    <a href="javascript:void(0)"
+       class="js-about-sidepanel-item about-sidepanel__item about-sidepanel__item--type-3"
+       data-id="#about-people">Люди</a>
+
+    <a href="javascript:void(0)"
+       class="js-about-sidepanel-item about-sidepanel__item about-sidepanel__item--type-4"
+       data-id="#about-value">Ценности</a>
+
+    <a href="javascript:void(0)"
+       class="js-about-sidepanel-item about-sidepanel__item about-sidepanel__item--type-5"
+       data-id="#about-video">Видео</a>
+
+    <a href="javascript:void(0)"
+       class="js-about-sidepanel-item about-sidepanel__item about-sidepanel__item--type-6"
+       data-id="#about-contacts">Контакты</a>
+</div>
+
 <div class="about-big-image">
     <img src="/pictures/about/big.jpg" alt="" />
     <div class="about-big-image__text">К нам приходят работать надолго — с нашей стороны есть все условия для этого</div>
 </div>
 
-<div class="layout">
+<div id="about-mission" class="layout">
     <div class="about-mission">
         <div class="about-mission__text">
             Мы честно трудимся и развиваем Компанию, для нас это главное. С 1995 года мы стали лидерами в своем деле и это заслуга людей с которыми мы работаем. За это мы им благодарны. Наша Компания создается людьми и для людей.
         </div>
     </div>
 
-    <div class="about-people-slider">
+    <div id="about-people" class="about-people-slider">
         <h2 class="about-people-slider__title">Петрович — это в первую очередь люди</h2>
 
         <div class="about-bxslider">
@@ -73,7 +99,7 @@
     </div>
 </div>
 
-<div class="about-value-block">
+<div id="about-value" class="about-value-block">
     <div class="layout">
         <div class="about-value-block__column">
             <div class="about-value-block__title">Современная компания&nbsp;&mdash; это технологии и&nbsp;квалифицированные сотрудники</div>
@@ -125,7 +151,7 @@
     </div>
 </div>
 
-<div class="about-video">
+<div id="about-video" class="about-video">
     <div class="layout">
         <div class="video about-video__video paused">
             <div class="video__screen">
@@ -139,7 +165,7 @@
     </div>
 </div>
 
-<div class="about-contacts">
+<div id="about-contacts" class="about-contacts">
     <div class="about-contacts__text">
         <h2>В шаговой доступности</h2>
         <div class="about-contacts__text-description">

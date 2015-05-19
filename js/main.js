@@ -105,4 +105,12 @@ $(function() {
 
         currentVacancySlide = index;
     });
+
+    var $videoWrapper = $('.video'),
+        video         = $videoWrapper.find('video').get( 0 );
+
+    $videoWrapper.on('click', function () {
+        $videoWrapper.toggleClass('paused', !video.paused);
+        video.paused ? video.play() : video.pause();
+    });
 });

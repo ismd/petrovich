@@ -125,4 +125,18 @@
     </div>
 </div>
 
+<div class="about-video">
+    <div class="layout">
+        <div class="video about-video__video paused">
+            <div class="video__screen">
+                Видеообращение<br />директора
+            </div>
+
+            <video width="884" height="588" src="/video/H264_test1_Talkinghead_mp4_480x360.mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
 <? require '_footer.php' ?>

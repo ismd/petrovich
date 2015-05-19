@@ -1,11 +1,10 @@
 @require 'fotorama.css'
-@require 'jquery.bxslider.css';
 @require 'select2.min.css'
 @require 'normalize.css'
+@require 'sprite'
 @require 'common'
 @require 'default'
 @require 'fonts'
-@require 'sprite'
 
 html,
 body
@@ -19,7 +18,7 @@ body
   min-height 100%
 
   &__layout
-    padding-bottom 87px
+    padding-bottom 137px
 
 .layout
   width 960px
@@ -41,7 +40,7 @@ body
   right 0
   background #fff
   z-index 1000
-  backface-visibility(hidden)
+  backface-visibility hidden
 
   &__item
     display inline-block
@@ -218,11 +217,6 @@ body
     width 100%
     height 100%
     margin-top -19px
-    background -moz-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%)
-    background -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.8)), color-stop(100%,rgba(246,245,242,0)))
-    background -webkit-linear-gradient(left, rgba(0,0,0,0.8) 0%,rgba(246,245,242,0) 100%)
-    background -o-linear-gradient(left, rgba(0,0,0,0.8) 0%,rgba(246,245,242,0) 100%)
-    background -ms-linear-gradient(left, rgba(0,0,0,0.8) 0%,rgba(246,245,242,0) 100%)
     background linear-gradient(to right, rgba(0,0,0,0.8) 0%,rgba(246,245,242,0) 100%)
     filter unquote('progid:DXImageTransform.Microsoft.gradient( startColorstr="#cc000000", endColorstr="#00f6f5f2",GradientType=1 )')
 
@@ -332,7 +326,7 @@ body
     display inline-block
     font-size 0
     margin-top 29px
-    border-radius(3px)
+    border-radius 3px
 
   &__page
     border-left 1px solid #ffdc18
@@ -340,7 +334,7 @@ body
     display inline-block
     font-size 18px
     color #000
-    transition(background-color .5s);
+    transition background-color .5s
 
     &:first-child
       border-left-color transparent
@@ -467,11 +461,6 @@ body
 
   &__gradient
     background rgb(255,255,255)
-    background -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,242,212,1) 100%)
-    background -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,242,212,1)))
-    background -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
-    background -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
-    background -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
     background linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,242,212,1) 100%)
     filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fff2d4',GradientType=0 )")
 
@@ -607,10 +596,52 @@ body
     right 0
     bottom 0
     content ''
-    background -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%)
-    background -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.4)))
-    background -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)
-    background -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)
-    background -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)
     background linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)
     filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=0 );")
+
+.about-mission
+  font-size 24px
+  text-align center
+  padding-top 56px
+  padding-bottom 39px
+  margin 0 auto
+  line-height 2.3em
+  border-bottom 1px dashed #ddd
+  width 880px
+
+  &__text
+    width 820px
+    margin 0 auto
+
+.about-people-slider
+  padding-top 45px
+  padding 45px 30px 0 30px
+
+  &__title
+    font-size 35px
+    text-align center
+    margin-bottom 39px
+
+  &__slide
+    width 300px
+    height 320px
+    padding-left 10px
+
+  &__slide-link
+    display inline-block
+    width 266px
+    height 300px
+    border-radius 2px
+    background #fff
+    box-shadow 0 3px 10px rgba(0, 0, 0, .1)
+
+  &__slide-name
+    font-size 18px
+    font-weight bold
+    padding 15px 20px
+
+  &__slide-description
+    font-size 16px
+    color #7f7f7f
+    padding 0 20px
+    margin-top -10px

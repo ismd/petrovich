@@ -1,8 +1,19 @@
 $(function() {
     $('.main-bxslider').bxSlider({
         auto: true,
+        controls: false,
         pagerCustom: '.main-slider__pager',
         pause: 7000
+    });
+
+    $('.about-bxslider').bxSlider({
+        minSlides: 1,
+        maxSlides: 3,
+        moveSlides: 1,
+        nextText: '',
+        prevText: '',
+        pager: false,
+        slideWidth: 307
     });
 
     $('select').select2({

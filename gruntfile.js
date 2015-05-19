@@ -8,6 +8,7 @@ module.exports = function(grunt) {
     }
 
     grunt.log.ok('Environment: ' + grunt.option('env'));
+    var autoprefixer = require('autoprefixer-core');
 
     /**
      * Конфигурация проекта
@@ -43,7 +44,7 @@ module.exports = function(grunt) {
         watch: {
             sprite: {
                 files: ['<%= sprite.all.src %>'],
-                tasks: ['wait:sprite', 'sprite', 'image_resize'],
+                tasks: ['sprite', 'image_resize'],
                 options: {
                     debounceDelay: 500
                 }
@@ -52,7 +53,7 @@ module.exports = function(grunt) {
                 files: [
                     './css/**/*.styl'
                 ],
-                tasks: ['stylus'],
+                tasks: ['stylus', 'postcss'],
                 options: {
                     livereload: true
                 }
@@ -68,6 +69,16 @@ module.exports = function(grunt) {
                 files:   {
                     './img/sprite.png': './img/sprite2x.png'
                 }
+            }
+        },
+        postcss: {
+            options: {
+                processors: [
+                    autoprefixer({}).postcss
+                ]
+            },
+            dist: {
+                src: './css/style.css'
             }
         }
     });
@@ -87,16 +98,15 @@ module.exports = function(grunt) {
     // Live reload
     grunt.loadNpmTasks('grunt-contrib-watch');
 
+    // Postcss
+    grunt.loadNpmTasks('grunt-postcss');
+
     /**
      * Задачи
      */
     grunt.registerTask('default', 'Build sprite and stylus. Watch changes in images and *.styl files', function () {
         // Этот пакет задач не отваливается при предупреждениях (критично для gaze)
         grunt.option('force', true);
-        grunt.task.run(['sprite', 'image_resize', 'stylus', 'watch']);
+        grunt.task.run(['sprite', 'image_resize', 'stylus', 'postcss', 'watch']);
     });
-
-    /*grunt.registerTask('build', 'Build project', function() {
-        grunt.task.run(['sprite', 'image_resize', 'stylus']);
-    });*/
 };

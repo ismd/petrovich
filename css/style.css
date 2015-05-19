@@ -1,5 +1,4 @@
 @import 'fotorama.css';
-@import 'jquery.bxslider.css';
 @import 'select2.min.css';
 @import 'normalize.css';
 a {
@@ -13,14 +12,10 @@ a {
   color: #000;
   background: #ffdc18;
   padding: 8px 16px 9px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
   display: inline-block;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+          transition: all 0.2s;
 }
 .button:hover {
   color: #000;
@@ -86,6 +81,48 @@ a {
 .select2-container--default .select2-results__options .select2-results__option:hover {
   background-color: #ffdc18;
 }
+.bx-wrapper {
+  position: relative;
+}
+.bx-wrapper .bx-viewport {
+  border: 0;
+  box-shadow: none;
+}
+.bx-wrapper .bx-prev,
+.bx-wrapper .bx-next {
+  position: absolute;
+  top: 86px;
+}
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-next:hover {
+  opacity: 0.7;
+}
+.bx-wrapper .bx-prev {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -466px;
+  width: 40px;
+  height: 70px;
+  left: -50px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .bx-wrapper .bx-prev {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 687px !important;
+  }
+}
+.bx-wrapper .bx-next {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -537px;
+  width: 40px;
+  height: 70px;
+  right: -50px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .bx-wrapper .bx-next {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 687px !important;
+  }
+}
 a {
   text-decoration: none;
   color: #444c50;
@@ -119,7 +156,7 @@ body {
   min-height: 100%;
 }
 .content-wrapper__layout {
-  padding-bottom: 87px;
+  padding-bottom: 137px;
 }
 .layout {
   width: 960px;
@@ -142,7 +179,7 @@ body {
   background: #fff;
   z-index: 1000;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 .menu__item {
   display: inline-block;
@@ -159,10 +196,10 @@ body {
   top: -1px;
   content: '';
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .menu__item + .menu__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .menu__item-list:after {
@@ -222,10 +259,10 @@ body {
   height: 30px;
   margin-top: 33px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__logo {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .header__logo--page-main {
@@ -234,10 +271,10 @@ body {
   width: 157px;
   height: 40px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__logo--page-main {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .header__title {
@@ -281,10 +318,10 @@ body {
   margin-right: 15px;
   content: '';
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__honors:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .header__send-resume {
@@ -327,10 +364,10 @@ body {
   height: 6px;
   content: '';
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .footer__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .footer__logo {
@@ -346,10 +383,10 @@ body {
   margin-top: 4px;
   display: block;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .footer__logo-dev {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .main-slider .bx-wrapper {
@@ -359,8 +396,6 @@ body {
   box-shadow: none;
   border: 0;
   left: 0;
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
 .main-slider__slide {
@@ -373,11 +408,7 @@ body {
   width: 100%;
   height: 100%;
   margin-top: -19px;
-  background: -moz-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.8)), color-stop(100%, rgba(246,245,242,0)));
   background: -webkit-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
-  background: -o-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
-  background: -ms-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
   background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(246,245,242,0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#cc000000", endColorstr="#00f6f5f2",GradientType=1 );
 }
@@ -402,10 +433,10 @@ body {
   left: 8px;
   content: '';
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .main-slider__quote:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .main-slider__author {
@@ -433,9 +464,7 @@ body {
   box-sizing: border-box;
   border: 3px solid transparent;
   -webkit-transition: border-color 0.3s;
-  -moz-transition: border-color 0.3s;
-  -o-transition: border-color 0.3s;
-  transition: border-color 0.3s;
+          transition: border-color 0.3s;
   line-height: 1.4em;
 }
 .main-slider__pager-item.active {
@@ -462,10 +491,10 @@ body {
   top: -7px;
   left: 5px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .quote__close {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider {
@@ -507,8 +536,6 @@ body {
   display: inline-block;
   font-size: 0;
   margin-top: 29px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 .vacancy-slider__page {
@@ -518,9 +545,7 @@ body {
   font-size: 18px;
   color: #000;
   -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
+          transition: background-color 0.5s;
 }
 .vacancy-slider__page:first-child {
   border-left-color: transparent;
@@ -576,13 +601,13 @@ body {
   top: -53px;
   left: 65px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__icon--office-1,
   .vacancy-slider__icon--storage-1,
   .vacancy-slider__icon--store-1,
   .vacancy-slider__icon--students-1 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider__icon--office-2,
@@ -596,13 +621,13 @@ body {
   top: -24px;
   right: 0;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__icon--office-2,
   .vacancy-slider__icon--storage-2,
   .vacancy-slider__icon--store-2,
   .vacancy-slider__icon--students-2 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider__icon--office-3,
@@ -616,13 +641,13 @@ body {
   top: -77px;
   right: 17px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__icon--office-3,
   .vacancy-slider__icon--storage-3,
   .vacancy-slider__icon--store-3,
   .vacancy-slider__icon--students-3 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider__icon--office-4,
@@ -630,19 +655,19 @@ body {
 .vacancy-slider__icon--store-4,
 .vacancy-slider__icon--students-4 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -466px;
+  background-position: 0px -608px;
   width: 70px;
   height: 79px;
   top: -56px;
   left: -77px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__icon--office-4,
   .vacancy-slider__icon--storage-4,
   .vacancy-slider__icon--store-4,
   .vacancy-slider__icon--students-4 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider__icon--office-5,
@@ -656,13 +681,13 @@ body {
   top: -50px;
   left: -5px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__icon--office-5,
   .vacancy-slider__icon--storage-5,
   .vacancy-slider__icon--store-5,
   .vacancy-slider__icon--students-5 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider__icon--office-6,
@@ -676,13 +701,13 @@ body {
   top: -40px;
   right: 27px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__icon--office-6,
   .vacancy-slider__icon--storage-6,
   .vacancy-slider__icon--store-6,
   .vacancy-slider__icon--students-6 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider__item {
@@ -708,10 +733,10 @@ body {
   height: 1px;
   content: '';
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 545px !important;
+    background-size: 162px 687px !important;
   }
 }
 .vacancy-slider__title {
@@ -728,11 +753,7 @@ body {
 }
 .vacancy-slider__gradient {
   background: #fff;
-  background: -moz-linear-gradient(top, #fff 0%, #fff2d4 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #fff2d4));
   background: -webkit-linear-gradient(top, #fff 0%, #fff2d4 100%);
-  background: -o-linear-gradient(top, #fff 0%, #fff2d4 100%);
-  background: -ms-linear-gradient(top, #fff 0%, #fff2d4 100%);
   background: linear-gradient(to bottom, #fff 0%, #fff2d4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fff2d4',GradientType=0 );
 }
@@ -868,11 +889,54 @@ body {
   right: 0;
   bottom: 0;
   content: '';
-  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.4)));
   background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
-  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
-  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=0 );;
+}
+.about-mission {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 39px;
+  margin: 0 auto;
+  line-height: 2.3em;
+  border-bottom: 1px dashed #ddd;
+  width: 880px;
+}
+.about-mission__text {
+  width: 820px;
+  margin: 0 auto;
+}
+.about-people-slider {
+  padding-top: 45px;
+  padding: 45px 30px 0 30px;
+}
+.about-people-slider__title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+.about-people-slider__slide {
+  width: 300px;
+  height: 320px;
+  padding-left: 10px;
+}
+.about-people-slider__slide-link {
+  display: inline-block;
+  width: 266px;
+  height: 300px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.about-people-slider__slide-name {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+.about-people-slider__slide-description {
+  font-size: 16px;
+  color: #7f7f7f;
+  padding: 0 20px;
+  margin-top: -10px;
 }

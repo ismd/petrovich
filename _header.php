@@ -11,6 +11,7 @@
         <script src="/js/jquery.bxslider.min.js"></script>
         <script src="/js/fotorama.js"></script>
         <script src="/js/select2.min.js"></script>
+        <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
         <script src="/js/main.js"></script>
     </head>
 

@@ -106,6 +106,7 @@ $(function() {
         currentVacancySlide = index;
     });
 
+    // Video
     var $videoWrapper = $('.video'),
         video         = $videoWrapper.find('video').get( 0 );
 
@@ -113,4 +114,19 @@ $(function() {
         $videoWrapper.toggleClass('paused', !video.paused);
         video.paused ? video.play() : video.pause();
     });
+
+    // Яндекс карты
+    ymaps.ready(init);
+    var myMap;
+
+    function init(){
+        myMap = new ymaps.Map('about-map', {
+            center: [55.76, 37.64],
+            controls: [],
+            state: {
+                type: 'yandex#publicMap'
+            },
+            zoom: 7
+        });
+    }
 });

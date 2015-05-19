@@ -139,4 +139,15 @@
     </div>
 </div>
 
+<div class="about-contacts">
+    <div class="about-contacts__text">
+        <h2>В шаговой доступности</h2>
+        <div class="about-contacts__text-description">
+            Петрович&nbsp;&mdash; очень большая и&nbsp;обширная сеть. У&nbsp;нас огромное количество торговых баз и&nbsp;столько&nbsp;же офисов продаж.<br /><i>Петрович близко.</i>
+        </div>
+    </div>
+</div>
+
+<div id="about-map" class="about-map"></div>
+
 <? require '_footer.php' ?>

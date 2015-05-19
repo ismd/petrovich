@@ -385,4 +385,4 @@
     </div>
 </div>
 
-<? require '_footer.php'; ?>
+<? require '_footer.php' ?>

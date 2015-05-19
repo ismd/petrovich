@@ -178,7 +178,7 @@ body {
   min-height: 100%;
 }
 .content-wrapper__layout {
-  padding-bottom: 137px;
+  padding-bottom: 195px;
 }
 .layout {
   width: 960px;
@@ -1146,6 +1146,7 @@ body {
 }
 .about-map-wrapper {
   position: relative;
+  padding-top: 42px;
 }
 .about-map-wrapper .select2 {
   position: absolute;

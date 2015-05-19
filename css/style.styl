@@ -7,8 +7,19 @@
 @require 'fonts'
 @require 'sprite'
 
+html,
+body
+  height 100%
+
 body
   font 24px $font
+
+.content-wrapper
+  position relative
+  min-height 100%
+
+  &__layout
+    padding-bottom 87px
 
 .layout
   width 960px
@@ -122,6 +133,11 @@ body
     right 0
 
 .footer
+  position absolute
+  left 0
+  bottom 0
+  width 100%
+  height 37px
   border-top 1px solid #c6c6c6
   padding-top 15px
   padding-bottom 35px

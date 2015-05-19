@@ -222,174 +222,176 @@
                 </div>
 
                 <div class="vacancy-slider__list-wrapper">
-                    <!-- Офис -->
-                    <div class="js-vacancy-list vacancy-slider__list">
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-1">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                    <div class="vacancy-slider__icons-container">
+                        <!-- Офис -->
+                        <div class="js-vacancy-list vacancy-slider__list">
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Менеджер интернет проектов</a>
+                                    <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
                             </div>
 
-                            <div class="vacancy-slider__item vacancy-slider__item--office-2">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Менеджер интернет проектов</a>
-                                <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
-                            </div>
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Руководитель товарного направления</a>
+                                    <div class="vacancy-slider__description">Работа с поставщиками</div>
+                                </div>
 
-                            <div class="vacancy-slider__item vacancy-slider__item--office-3">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
-                            </div>
-                        </div>
+                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Инженер ПТО</a>
+                                    <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
+                                </div>
 
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-4">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Руководитель товарного направления</a>
-                                <div class="vacancy-slider__description">Работа с поставщиками</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-5">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Инженер ПТО</a>
-                                <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-6">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Остальные вакансии</a>
-                                <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Склад -->
-                    <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-1">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-2">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Менеджер интернет проектов</a>
-                                <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-3">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Остальные вакансии</a>
+                                    <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-4">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Руководитель товарного направления</a>
-                                <div class="vacancy-slider__description">Работа с поставщиками</div>
+                        <!-- Склад -->
+                        <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Менеджер интернет проектов</a>
+                                    <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
                             </div>
 
-                            <div class="vacancy-slider__item vacancy-slider__item--office-5">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Инженер ПТО</a>
-                                <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
-                            </div>
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Руководитель товарного направления</a>
+                                    <div class="vacancy-slider__description">Работа с поставщиками</div>
+                                </div>
 
-                            <div class="vacancy-slider__item vacancy-slider__item--office-6">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Остальные вакансии</a>
-                                <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
-                            </div>
-                        </div>
-                    </div>
+                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Инженер ПТО</a>
+                                    <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
+                                </div>
 
-                    <!-- Магазин -->
-                    <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-1">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-2">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Менеджер интернет проектов</a>
-                                <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-3">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
-                            </div>
-                        </div>
-
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-4">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Руководитель товарного направления</a>
-                                <div class="vacancy-slider__description">Работа с поставщиками</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-5">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Инженер ПТО</a>
-                                <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-6">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Остальные вакансии</a>
-                                <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Студентам -->
-                    <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-1">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-2">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Менеджер интернет проектов</a>
-                                <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
-                            </div>
-
-                            <div class="vacancy-slider__item vacancy-slider__item--office-3">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
-                                <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Остальные вакансии</a>
+                                    <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="vacancy-slider__row">
-                            <div class="vacancy-slider__item vacancy-slider__item--office-4">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Руководитель товарного направления</a>
-                                <div class="vacancy-slider__description">Работа с поставщиками</div>
+                        <!-- Магазин -->
+                        <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Менеджер интернет проектов</a>
+                                    <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
                             </div>
 
-                            <div class="vacancy-slider__item vacancy-slider__item--office-5">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Инженер ПТО</a>
-                                <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Руководитель товарного направления</a>
+                                    <div class="vacancy-slider__description">Работа с поставщиками</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Инженер ПТО</a>
+                                    <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Остальные вакансии</a>
+                                    <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Студентам -->
+                        <div class="js-vacancy-list vacancy-slider__list vacancy-slider__list--position-right">
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-1">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-2">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Менеджер интернет проектов</a>
+                                    <div class="vacancy-slider__description">Поддержака и развитие существующих сайтов холдинга</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-3">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Заместитель руководителя отдела закупок</a>
+                                    <div class="vacancy-slider__description">Руководство менеджерами товарных направлений</div>
+                                </div>
                             </div>
 
-                            <div class="vacancy-slider__item vacancy-slider__item--office-6">
-                                <a href="javascript:void(0)"
-                                   class="vacancy-slider__title">Остальные вакансии</a>
-                                <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
+                            <div class="vacancy-slider__row">
+                                <div class="vacancy-slider__item vacancy-slider__item--office-4">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Руководитель товарного направления</a>
+                                    <div class="vacancy-slider__description">Работа с поставщиками</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-5">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Инженер ПТО</a>
+                                    <div class="vacancy-slider__description">Технический надзор за выполнением строительно-монтажных работ</div>
+                                </div>
+
+                                <div class="vacancy-slider__item vacancy-slider__item--office-6">
+                                    <a href="javascript:void(0)"
+                                       class="vacancy-slider__title">Остальные вакансии</a>
+                                    <div class="vacancy-slider__description">Перейдите в раздел вакансий, для просмотра всего списка</div>
+                                </div>
                             </div>
                         </div>
                     </div>

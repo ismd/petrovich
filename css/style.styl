@@ -261,6 +261,8 @@ body
   &__select-block
     text-align center
     font-size 19px
+    position relative
+    z-index 10
 
     h1
       font-size 30px
@@ -312,9 +314,16 @@ body
         color #000
         cursor default
 
+  &__icons-container
+    position absolute
+    top -1000px
+    left 0
+    right 0
+    bottom 0
+    overflow hidden
+
   &__list-wrapper
     height 340px
-    overflow hidden
     position relative
 
   &__list
@@ -324,6 +333,7 @@ body
     position absolute
     margin-left 50%
     left -440px
+    bottom 0
 
     &--position-left
       left -100%

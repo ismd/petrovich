@@ -43,7 +43,6 @@ h2 {
   padding: 12px 24px 10px;
 }
 .select--type-transparent + .select2 .select2-selection {
-  border-color: transparent;
   background: transparent;
 }
 .select--type-transparent + .select2 .select2-selection__rendered {
@@ -69,6 +68,26 @@ h2 {
 }
 .select2-results__option {
   font-size: 16px;
+}
+.select2 .select2-selection {
+  border-color: transparent;
+  background: #fff;
+  box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+}
+.select2 .select2-selection__rendered {
+  font-size: 16px;
+  padding-top: 3px;
+  padding-left: 12px;
+}
+.select2-container .select2-selection--single {
+  height: 37px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 5px;
+  right: 9px;
+}
+.select2:hover .select2-selection__arrow b {
+  border-top-color: #cc3500;
 }
 .select2-container .select2-dropdown {
   background: #fff;
@@ -1124,6 +1143,16 @@ body {
   font-size: 19px;
   margin-top: -16px;
   line-height: 1.9em;
+}
+.about-map-wrapper {
+  position: relative;
+}
+.about-map-wrapper .select2 {
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  margin-left: -482px;
+  z-index: 5;
 }
 .about-map {
   width: 100%;

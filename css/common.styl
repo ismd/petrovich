@@ -42,7 +42,6 @@ h2
   &--type-transparent
     & + .select2
       .select2-selection
-        border-color transparent
         background transparent
 
         &__rendered
@@ -73,6 +72,28 @@ h2
 
   &-results__option
     font-size 16px
+
+  .select2-selection
+    border-color transparent
+    background #fff
+    box-shadow 0 5px 50px rgba(0, 0, 0, 0.15)
+
+    &__rendered
+      font-size 16px
+      padding-top 3px
+      padding-left 12px
+
+  &-container &-selection--single
+    height 37px
+
+  &-container--default &-selection--single &-selection__arrow
+    top 5px
+    right 9px
+
+  &:hover
+    .select2-selection
+      &__arrow b
+        border-top-color #cc3500
 
 .select2-container
   .select2-dropdown

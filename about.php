@@ -148,6 +148,12 @@
     </div>
 </div>
 
-<div id="about-map" class="about-map"></div>
+<div class="about-map-wrapper">
+    <select class="select about-map-wrapper__select">
+        <option>Санкт-Петербург</option>
+    </select>
+
+    <div id="about-map" class="about-map"></div>
+</div>
 
 <? require '_footer.php' ?>

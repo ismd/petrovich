@@ -117,10 +117,10 @@ $(function() {
 
     // Яндекс карты
     ymaps.ready(init);
-    var myMap;
+    var map;
 
     function init(){
-        myMap = new ymaps.Map('about-map', {
+        map = new ymaps.Map('about-map', {
             center: [55.76, 37.64],
             controls: [],
             state: {
@@ -128,5 +128,12 @@ $(function() {
             },
             zoom: 7
         });
+
+        var placemark = new ymaps.Placemark([55.76, 37.64], {
+            hintContent: 'Москва!',
+            balloonContent: 'Столица России'
+        });
+
+        map.geoObjects.add(placemark);
     }
 });

@@ -119,7 +119,7 @@ body
     font-weight 900
     font-style italic
     padding 30px 10px 0 163px
-    width 640px
+    width 620px
     text-align center
 
     &--page-main
@@ -912,3 +912,76 @@ body
 
       &.about-sidepanel__item--state-active:before
         sprite($about-sidepanel-6-active)
+
+.vacancies
+  &__center
+    text-align center
+
+    h3
+      font-size 29px
+      margin-top -18px
+      margin-bottom 27px
+
+  &__select
+    width 300px
+
+    & + .select2
+      margin-top -4px
+
+      .select2-selection__rendered
+        font-size 29px
+        height 35px
+
+  &-radio
+    display none
+
+    &-wrapper
+      border 1px solid #ffdc18
+      border-radius 3px
+      display inline-block
+      height 38px
+      font-size 0
+
+    &:first-child + &__container
+      border-left 0
+
+    & + &__container
+      border-left 1px solid #ffdc18
+      display inline-block
+      cursor pointer
+      font-size 18px
+      height 31px
+      padding 7px 24px 0 24px
+
+      i
+        font-size 13px
+
+      &:hover
+        opacity .7
+
+    &:checked + &__container
+      background #ffdc18
+
+  &-sidepanel
+    width 150px
+    padding-top 54px
+    padding-left 5px
+
+    &__block
+      padding-bottom 27px
+      font-size 12px
+      line-height 1.6em
+
+    &__title
+      font-size 13px
+      font-weight bold
+      margin-bottom 9px
+
+    input
+      position absolute
+
+    label
+      position relative
+      top -2px
+      left 20px
+      display inline-block

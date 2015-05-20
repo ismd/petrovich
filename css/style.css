@@ -310,7 +310,7 @@ body {
   font-weight: 900;
   font-style: italic;
   padding: 30px 10px 0 163px;
-  width: 640px;
+  width: 620px;
   text-align: center;
 }
 .header__title--page-main {
@@ -1399,4 +1399,76 @@ body {
     background-image: url("../img/sprite2x.png");
     background-size: 162px 1391px !important;
   }
+}
+.vacancies__center {
+  text-align: center;
+}
+.vacancies__center h3 {
+  font-size: 29px;
+  margin-top: -18px;
+  margin-bottom: 27px;
+}
+.vacancies__select {
+  width: 300px;
+}
+.vacancies__select + .select2 {
+  margin-top: -4px;
+}
+.vacancies__select + .select2 .select2-selection__rendered {
+  font-size: 29px;
+  height: 35px;
+}
+.vacancies-radio {
+  display: none;
+}
+.vacancies-radio-wrapper {
+  border: 1px solid #ffdc18;
+  border-radius: 3px;
+  display: inline-block;
+  height: 38px;
+  font-size: 0;
+}
+.vacancies-radio:first-child + .vacancies-radio__container {
+  border-left: 0;
+}
+.vacancies-radio + .vacancies-radio__container {
+  border-left: 1px solid #ffdc18;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  height: 31px;
+  padding: 7px 24px 0 24px;
+}
+.vacancies-radio + .vacancies-radio__container i {
+  font-size: 13px;
+}
+.vacancies-radio + .vacancies-radio__container:hover {
+  opacity: 0.7;
+}
+.vacancies-radio:checked + .vacancies-radio__container {
+  background: #ffdc18;
+}
+.vacancies-sidepanel {
+  width: 150px;
+  padding-top: 54px;
+  padding-left: 5px;
+}
+.vacancies-sidepanel__block {
+  padding-bottom: 27px;
+  font-size: 12px;
+  line-height: 1.6em;
+}
+.vacancies-sidepanel__title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+.vacancies-sidepanel input {
+  position: absolute;
+}
+.vacancies-sidepanel label {
+  position: relative;
+  top: -2px;
+  left: 20px;
+  display: inline-block;
 }

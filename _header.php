@@ -23,7 +23,7 @@
             <a href="/about.php"
                class="menu__item">О компании</a>
 
-            <a href="javascript:void(0)"
+            <a href="/vacancies.php"
                class="menu__item">Вакансии</a>
 
             <div class="menu__item">
@@ -91,26 +91,33 @@
         <div class="content-wrapper">
             <div class="content-wrapper__layout">
                 <div class="layout layout--type-main">
-                    <header class="header<?= 'index.php' == trim($_SERVER['PHP_SELF'], '/') ? ' header--page-main' : ''; ?>">
-                        <? if ('index.php' == trim($_SERVER['PHP_SELF'], '/')): ?>
+                    <header class="header<?= '/index.php' == $_SERVER['PHP_SELF'] ? ' header--page-main' : ''; ?>">
+                        <? if ('/index.php' == $_SERVER['PHP_SELF']): ?>
                             <div class="header__logo header__logo--page-main"></div>
                         <? else: ?>
                             <a href="/" class="header__logo"></a>
                         <? endif; ?>
 
-                        <? if ('index.php' == trim($_SERVER['PHP_SELF'], '/')): ?>
+                        <? if ('/index.php' == $_SERVER['PHP_SELF']): ?>
                             <div class="header__title header__title--page-main">Для тех, кто строит жизнь</div>
 
                             <a href="javascript:void(0)"
                                class="button header__send-resume">Отправить резюме</a>
                         <? else: ?>
-                            <div class="header__title">Мы строим жизнь</div>
+                            <div class="header__title">
+                                <? if ('/about.php' == $_SERVER['PHP_SELF']): ?>
+                                    Мы строим жизнь
+                                <? elseif ('/vacancies.php' == $_SERVER['PHP_SELF']): ?>
+                                    Вакансии компании Петрович
+                                <? endif; ?>
+                            </div>
+
                             <div class="header__honors"></div>
                         <? endif; ?>
 
                         <div class="clear"></div>
 
-                        <? if ('index.php' == trim($_SERVER['PHP_SELF'], '/')): ?>
+                        <? if ('/index.php' == $_SERVER['PHP_SELF']): ?>
                             <div class="header__honors header__honors--page-main">
                                 Пятый год — самый привлекательный работодатель
                             </div>

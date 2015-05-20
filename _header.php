@@ -92,9 +92,15 @@
             <div class="content-wrapper__layout">
                 <div class="layout layout--type-main">
                     <header class="header<?= 'index.php' == trim($_SERVER['PHP_SELF'], '/') ? ' header--page-main' : ''; ?>">
-                        <div class="header__logo<?= 'index.php' == trim($_SERVER['PHP_SELF'], '/') ? ' header__logo--page-main' : ''; ?>"></div>
+                        <? if ('index.php' == trim($_SERVER['PHP_SELF'], '/')): ?>
+                            <div class="header__logo header__logo--page-main"></div>
+                        <? else: ?>
+                            <a href="/" class="header__logo"></a>
+                        <? endif; ?>
+
                         <? if ('index.php' == trim($_SERVER['PHP_SELF'], '/')): ?>
                             <div class="header__title header__title--page-main">Для тех, кто строит жизнь</div>
+
                             <a href="javascript:void(0)"
                                class="button header__send-resume">Отправить резюме</a>
                         <? else: ?>

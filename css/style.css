@@ -1452,6 +1452,7 @@ body {
   width: 150px;
   padding-top: 54px;
   padding-left: 5px;
+  float: left;
 }
 .vacancies-sidepanel__block {
   padding-bottom: 27px;
@@ -1471,4 +1472,44 @@ body {
   top: -2px;
   left: 20px;
   display: inline-block;
+}
+.vacancies-list {
+  float: left;
+  width: 540px;
+  padding: 30px 50px 30px 50px;
+}
+.vacancies-list__item {
+  padding-bottom: 43px;
+}
+.vacancies-list__date {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+.vacancies-list__title {
+  font-size: 24px;
+  color: #06418a;
+  border-bottom: 1px solid #f0f0f0;
+  display: inline-block;
+  margin-top: 6px;
+}
+.vacancies-list__description {
+  font-size: 14px;
+  color: #4c4c4c;
+  padding-top: 6px;
+  line-height: 1.8em;
+}
+.vacancies-list-info {
+  font-size: 12px;
+  margin-top: 14px;
+}
+.vacancies-list-info__title {
+  font-weight: 400;
+  text-align: left;
+}
+.vacancies-list-info__value {
+  padding-top: 5px;
+}
+.vacancies-list-info__title,
+.vacancies-list-info__value {
+  width: 109px;
 }

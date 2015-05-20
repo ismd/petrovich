@@ -118,6 +118,122 @@
             <label for="vacancy-3-2">Днём</label><br />
         </div>
     </div>
+
+    <div class="vacancies-list">
+        <div class="vacancies-list__item">
+            <div class="vacancies-list__date">10 декабря</div>
+            <a href="javascript:void(0)"
+               class="vacancies-list__title">Заместитель руководителя отдела закупок</a>
+            <div class="vacancies-list__description">
+                Руководство менеджерами товарных направлений Обеспечение выполнения целевых показателей отдела Обеспечение потребностей товара в&nbsp;разрезе товарных групп/поставщиков Планирование графика внешних поставок и&nbsp;внутренних перемещений Взаимодействие с&nbsp;поставщиками по&nbsp;оптимизации условий поставок
+            </div>
+
+            <table class="vacancies-list-info">
+                <thead>
+                    <tr>
+                        <th class="vacancies-list-info__title">Направление</th>
+                        <th class="vacancies-list-info__title">Зарплата</th>
+                        <th class="vacancies-list-info__title">Место работы</th>
+                        <th class="vacancies-list-info__title">График работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="vacancies-list-info__value"><b>Офис</b></td>
+                        <td class="vacancies-list-info__value">от&nbsp;<b>25000&nbsp;руб</b></td>
+                        <td class="vacancies-list-info__value"><b>м.&nbsp;Пионерская</b></td>
+                        <td class="vacancies-list-info__value"><b>5&nbsp;/&nbsp;2</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="vacancies-list__item">
+            <div class="vacancies-list__date">10 декабря</div>
+            <a href="javascript:void(0)"
+               class="vacancies-list__title">Инженер по эксплуатации зданий и сооружений</a>
+            <div class="vacancies-list__description">
+                Организация работы по&nbsp;техобслуживанию и&nbsp;безаварийной эксплуатации зданий и&nbsp;сооружений. Организация подрядных компаний на&nbsp;строительно-монтажные работы. Контроль выполнения заявок. Бюджетирование и&nbsp;контроль затрат на&nbsp;выполнение инженерно-технических мероприятий. Заключение и&nbsp;ведение договоров по&nbsp;обслуживанию инженерных сетей.
+            </div>
+
+            <table class="vacancies-list-info">
+                <thead>
+                    <tr>
+                        <th class="vacancies-list-info__title">Направление</th>
+                        <th class="vacancies-list-info__title">Зарплата</th>
+                        <th class="vacancies-list-info__title">Место работы</th>
+                        <th class="vacancies-list-info__title">График работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="vacancies-list-info__value"><b>Офис</b></td>
+                        <td class="vacancies-list-info__value"><b>33&nbsp;000&nbsp;руб</b></td>
+                        <td class="vacancies-list-info__value"><b>Приморский район</b></td>
+                        <td class="vacancies-list-info__value"><b>5*2&nbsp;с&nbsp;9:00-18:00.</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="vacancies-list__item">
+            <div class="vacancies-list__date">9 декабря</div>
+            <a href="javascript:void(0)"
+               class="vacancies-list__title">Помощник администратора</a>
+            <div class="vacancies-list__description">
+                Ведение документации, табеля учета рабочего времени; &mdash;&nbsp;Оформление служебных записок, приказов, распоряжений, карточек постоянного покупателя; &mdash;&nbsp;Контроль сертификатов на&nbsp;продукцию; &mdash;&nbsp;Заказ рекламной продукции и&nbsp;оборудования; &mdash;&nbsp;Работа с&nbsp;клиентами: оформление возвратов и&nbsp;т.д.
+            </div>
+
+            <table class="vacancies-list-info">
+                <thead>
+                    <tr>
+                        <th class="vacancies-list-info__title">Направление</th>
+                        <th class="vacancies-list-info__title">Зарплата</th>
+                        <th class="vacancies-list-info__title">Место работы</th>
+                        <th class="vacancies-list-info__title">График работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="vacancies-list-info__value"><b>Офис</b></td>
+                        <td class="vacancies-list-info__value">от&nbsp;<b>25000 руб</b></td>
+                        <td class="vacancies-list-info__value"><b>м.&nbsp;Пионерская</b></td>
+                        <td class="vacancies-list-info__value"><b>5&nbsp;/&nbsp;2</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="vacancies-list__item">
+            <div class="vacancies-list__date">9 декабря</div>
+            <a href="javascript:void(0)"
+               class="vacancies-list__title">Руководитель отдела закупок</a>
+            <div class="vacancies-list__description">
+                Руководство менеджерами товарных направлений Обеспечение выполнения целевых показателей отдела Обеспечение потребностей товара в&nbsp;разрезе товарных групп/поставщиков Планирование графика внешних поставок и&nbsp;внутренних перемещений Взаимодействие с&nbsp;поставщиками по&nbsp;оптимизации условий поставок
+            </div>
+
+            <table class="vacancies-list-info">
+                <thead>
+                    <tr>
+                        <th class="vacancies-list-info__title">Направление</th>
+                        <th class="vacancies-list-info__title">Зарплата</th>
+                        <th class="vacancies-list-info__title">Место работы</th>
+                        <th class="vacancies-list-info__title">График работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="vacancies-list-info__value"><b>Офис</b></td>
+                        <td class="vacancies-list-info__value">от&nbsp;<b>25000 руб</b></td>
+                        <td class="vacancies-list-info__value"><b>м.&nbsp;Пионерская</b></td>
+                        <td class="vacancies-list-info__value"><b>5&nbsp;/&nbsp;2</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="clear"></div>
 </div>
 
 <? require '_footer.php' ?>

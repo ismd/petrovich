@@ -952,15 +952,23 @@ body
       font-size 18px
       height 31px
       padding 7px 24px 0 24px
+      transition background-color .5s
+
+    &:active + &__container
+      background-color #fff8d1
 
       i
         font-size 13px
 
       &:hover
-        opacity .7
+        color #cc3500
 
     &:checked + &__container
-      background #ffdc18
+      background-color #ffdc18
+      cursor default
+
+      &:hover
+        color #000
 
   &-sidepanel
     width 150px
@@ -990,10 +998,11 @@ body
   &-list
     float left
     width 540px
-    padding 30px 50px 30px 50px
+    padding 36px 50px 30px 50px
 
     &__item
-      padding-bottom 43px
+      margin-top -6px
+      padding-bottom 49px
 
     &__date
       font-size 12px
@@ -1026,3 +1035,38 @@ body
       &__title,
       &__value
         width 109px
+
+.pager
+  font-size 0
+
+  &__title
+    font-size 15px
+    font-weight bold
+    margin-bottom 7px
+
+  &__items-block
+    border 1px solid #ffdc18
+    display inline-block
+    border-radius 3px
+    margin-right 10px
+
+  &__item
+    display inline-block
+    border-left 1px solid #ffdc18
+    font-size 14px
+    padding 5px 12px 5px 13px
+    transition background-color .5s
+
+    &:first-child
+      border-left 0
+
+    &--state-active
+      background-color #ffdc18
+      cursor default
+
+      &:hover
+        color #000
+
+    &:active
+      background-color #fff8d1
+      color #cc3500

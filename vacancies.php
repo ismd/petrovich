@@ -231,6 +231,28 @@
                 </tbody>
             </table>
         </div>
+
+        <div class="pager">
+            <div class="pager__title">Страницы</div>
+
+            <div class="pager__items-block">
+                <a href="javascript:void(0)"
+                   class="pager__item pager__item--state-active">1</a>
+                <a href="javascript:void(0)"
+                   class="pager__item">2</a>
+                <a href="javascript:void(0)"
+                   class="pager__item">3</a>
+                <a href="javascript:void(0)"
+                   class="pager__item">4</a>
+                <a href="javascript:void(0)"
+                   class="pager__item">5</a>
+            </div>
+
+            <div class="pager__items-block">
+              <a href="javascript:void(0)"
+                 class="pager__item">Следующая</a>
+            </div>
+        </div>
     </div>
 
     <div class="clear"></div>

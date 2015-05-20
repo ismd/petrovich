@@ -31,11 +31,19 @@ $(function() {
     });
 
     // Меню
-    var $menuLinks = $('.js-menu-open');
+    var $menuLinks      = $('.js-menu-open'),
+        menuActiveClass = 'menu__item-list--state-opened';
 
     $menuLinks.click(function(ev) {
-        $menuLinks.removeClass('menu__item-list--state-opened');
-        $(this).addClass('menu__item-list--state-opened');
+        var $this    = $(this),
+            hasClass = $this.hasClass(menuActiveClass);
+
+        $menuLinks.removeClass(menuActiveClass);
+
+        if (!hasClass) {
+            $(this).addClass(menuActiveClass);
+        }
+
         ev.stopPropagation();
     });
 

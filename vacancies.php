@@ -122,7 +122,7 @@
     <div class="vacancies-list">
         <div class="vacancies-list__item">
             <div class="vacancies-list__date">10 декабря</div>
-            <a href="javascript:void(0)"
+            <a href="/vacancy.php"
                class="vacancies-list__title">Заместитель руководителя отдела закупок</a>
             <div class="vacancies-list__description">
                 Руководство менеджерами товарных направлений Обеспечение выполнения целевых показателей отдела Обеспечение потребностей товара в&nbsp;разрезе товарных групп/поставщиков Планирование графика внешних поставок и&nbsp;внутренних перемещений Взаимодействие с&nbsp;поставщиками по&nbsp;оптимизации условий поставок

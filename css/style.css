@@ -8,6 +8,9 @@ a {
 h2 {
   font-size: 35px;
 }
+h5 {
+  font-size: 19px;
+}
 .clear {
   clear: both;
 }
@@ -1459,9 +1462,9 @@ body {
 }
 .vacancies-sidepanel {
   width: 150px;
+  float: left;
   padding-top: 54px;
   padding-left: 5px;
-  float: left;
 }
 .vacancies-sidepanel__block {
   padding-bottom: 27px;
@@ -1591,6 +1594,7 @@ body {
   background-color: #fff4d9;
   border-radius: 3px;
   padding-bottom: 30px;
+  margin-bottom: 36px;
 }
 .vacancy-info__title {
   background-color: #ffe7ab;
@@ -1629,4 +1633,64 @@ body {
   font-weight: bold;
   position: relative;
   top: -5px;
+}
+.vacancy-left {
+  float: left;
+  width: 220px;
+}
+.vacancy-mid {
+  float: left;
+  width: 530px;
+}
+.vacancy-right {
+  float: right;
+  width: 190px;
+  padding-top: 11px;
+}
+.vacancy-right__text {
+  font-size: 12px;
+  line-height: 1.9em;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.vacancy-contact {
+  padding-left: 20px;
+}
+.vacancy-contact__title {
+  font-size: 12px;
+  color: #896f30;
+  text-transform: uppercase;
+}
+.vacancy-contact b {
+  font-size: 16px;
+}
+.vacancy-contact i {
+  font-size: 13px;
+}
+.vacancy-contact img {
+  margin-top: 12px;
+  margin-bottom: -4px;
+}
+.vacancy-contact p {
+  line-height: 0.7em;
+  margin: 0;
+  margin-top: -4px;
+}
+.vacancy-about-contact {
+  font-size: 19px;
+  font-style: italic;
+  line-height: 2em;
+  margin-top: -10px;
+  margin-bottom: 44px;
+}
+.text-content {
+  font-size: 18px;
+}
+.text-content h5 {
+  margin: 32px 0 -22px 0;
+}
+.text-content p {
+  line-height: 1.6em;
+  margin: 29px 0;
 }

@@ -131,7 +131,7 @@ h2 {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .bx-wrapper .bx-prev {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .bx-wrapper .bx-next {
@@ -144,7 +144,7 @@ h2 {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .bx-wrapper .bx-next {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .fancybox-wrap {
@@ -226,7 +226,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .menu__item + .menu__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .menu__item-list:after {
@@ -289,7 +289,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__logo {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .header__logo--page-main {
@@ -301,7 +301,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__logo--page-main {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .header__title {
@@ -348,7 +348,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__honors:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .header__send-resume {
@@ -394,7 +394,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .footer__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .footer__logo {
@@ -413,7 +413,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .footer__logo-dev {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .main-slider .bx-wrapper {
@@ -463,7 +463,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .main-slider__quote:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .main-slider__author {
@@ -521,7 +521,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .quote__close {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider {
@@ -634,7 +634,7 @@ body {
   .vacancy-slider__icon--store-1,
   .vacancy-slider__icon--students-1 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider__icon--office-2,
@@ -654,7 +654,7 @@ body {
   .vacancy-slider__icon--store-2,
   .vacancy-slider__icon--students-2 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider__icon--office-3,
@@ -674,7 +674,7 @@ body {
   .vacancy-slider__icon--store-3,
   .vacancy-slider__icon--students-3 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider__icon--office-4,
@@ -694,7 +694,7 @@ body {
   .vacancy-slider__icon--store-4,
   .vacancy-slider__icon--students-4 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider__icon--office-5,
@@ -714,7 +714,7 @@ body {
   .vacancy-slider__icon--store-5,
   .vacancy-slider__icon--students-5 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider__icon--office-6,
@@ -734,7 +734,7 @@ body {
   .vacancy-slider__icon--store-6,
   .vacancy-slider__icon--students-6 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider__item {
@@ -763,7 +763,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancy-slider__title {
@@ -1070,7 +1070,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-1 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-value-block__icon--type-2 {
@@ -1082,7 +1082,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-2 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-value-block__icon--type-3 {
@@ -1094,7 +1094,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-3 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-value-block__icon--type-4 {
@@ -1106,7 +1106,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-4 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-value-block__icon--type-5 {
@@ -1118,7 +1118,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-5 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-value-block__icon--type-6 {
@@ -1132,7 +1132,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-6 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-video {
@@ -1167,14 +1167,14 @@ body {
   left: 375px;
   content: '';
   background-image: url("../img/sprite.png");
-  background-position: 0px -1220px;
+  background-position: 0px -1365px;
   width: 148px;
   height: 171px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .video__screen:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .video.paused .video__screen {
@@ -1265,7 +1265,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-1:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-1.about-sidepanel__item--state-active:before {
@@ -1277,7 +1277,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-1.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-2:before {
@@ -1289,7 +1289,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-2:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-2.about-sidepanel__item--state-active:before {
@@ -1301,7 +1301,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-2.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-3:before {
@@ -1313,7 +1313,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-3:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-3.about-sidepanel__item--state-active:before {
@@ -1325,7 +1325,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-3.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-4:before {
@@ -1337,7 +1337,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-4:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-4.about-sidepanel__item--state-active:before {
@@ -1349,7 +1349,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-4.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-5:before {
@@ -1361,7 +1361,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-5:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-5.about-sidepanel__item--state-active:before {
@@ -1373,7 +1373,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-5.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-6:before {
@@ -1385,7 +1385,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-6:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .about-sidepanel__item--type-6.about-sidepanel__item--state-active:before {
@@ -1397,7 +1397,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-6.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1391px !important;
+    background-size: 162px 1536px !important;
   }
 }
 .vacancies__center {
@@ -1522,6 +1522,34 @@ body {
 .vacancies-list-info__title,
 .vacancies-list-info__value {
   width: 109px;
+}
+.vacancies-right-info {
+  padding-top: 61px;
+}
+.vacancies-right-info__title {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+.vacancies-right-info__description {
+  padding-top: 2px;
+  font-size: 12px;
+  line-height: 1.85em;
+}
+.vacancies-right-car {
+  position: absolute;
+  top: 280px;
+  right: 0;
+  background-image: url("../img/sprite.png");
+  background-position: 0px -1220px;
+  width: 62px;
+  height: 144px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .vacancies-right-car {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 1536px !important;
+  }
 }
 .pager {
   font-size: 0;

@@ -255,7 +255,14 @@
         </div>
     </div>
 
+    <div class="vacancies-right-info">
+        <div class="vacancies-right-info__title">Ищем водителей любой категории</div>
+        <div class="vacancies-right-info__description">Нам всегда нужны водители любой категории, со&nbsp;своим транспортом.</div>
+    </div>
+
     <div class="clear"></div>
 </div>
+
+<div class="vacancies-right-car"></div>
 
 <? require '_footer.php' ?>

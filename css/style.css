@@ -1641,9 +1641,11 @@ body {
 .vacancy-mid {
   float: left;
   width: 530px;
+  padding-left: 220px;
 }
 .vacancy-right {
-  float: right;
+  position: absolute;
+  right: 0;
   width: 190px;
   padding-top: 11px;
 }
@@ -1656,6 +1658,8 @@ body {
 }
 .vacancy-contact {
   padding-left: 20px;
+  position: absolute;
+  width: 180px;
 }
 .vacancy-contact__title {
   font-size: 12px;

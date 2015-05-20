@@ -166,7 +166,7 @@ $(function() {
         $.scrollTo($this.data('id'), 400);
     });
 
-    $(window).scroll(function(ev) {
+    $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
 
         for (var i = 0; i < $aboutPageItems.length; i++) {
@@ -176,5 +176,35 @@ $(function() {
                 return;
             }
         }
+    });
+
+    // Блоки на странице вакансии
+    var $vacancyFixed = $('.js-vacancy-fixed');
+
+    $.each($vacancyFixed, function(i, fixed) {
+        var $fixed = $(fixed),
+            left   = $fixed.offset().left,
+            top    = $fixed.offset().top,
+            right  = $fixed.css('right');
+
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+
+            if (scrollTop + 90 > top) {
+                $fixed.css({
+                    position: 'fixed',
+                    left: left,
+                    right: 'auto',
+                    top: '100px'
+                });
+            } else {
+                $fixed.css({
+                    position: 'absolute',
+                    left: 'auto',
+                    right: right,
+                    top: 'auto'
+                });
+            }
+        });
     });
 });

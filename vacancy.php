@@ -30,7 +30,7 @@
     </div>
 
     <div class="vacancy-left">
-        <div class="vacancy-contact">
+        <div class="js-vacancy-fixed vacancy-contact">
             <div class="vacancy-contact__title">Контактное лицо</div>
 
             <img src="/pictures/vacancy/contact.jpg"
@@ -60,7 +60,7 @@
         <img src="/pictures/vacancy/social.png" alt="" />
     </div>
 
-    <div class="vacancy-right">
+    <div class="js-vacancy-fixed vacancy-right">
         <a href="javascript:void(0)"
            class="button">Заполнить анкету</a>
 

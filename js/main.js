@@ -16,6 +16,16 @@ $(function() {
         slideWidth: 307
     });
 
+    $('.fancybox').fancybox({
+        helpers: {
+            overlay: {
+                locked: false
+            }
+        },
+        padding: 0,
+        scrolling: false
+    });
+
     $('select').select2({
         minimumResultsForSearch: Infinity
     });

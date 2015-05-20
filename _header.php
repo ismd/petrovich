@@ -13,6 +13,8 @@
         <script src="/js/select2.min.js"></script>
         <script src="/js/jquery.scrollTo.min.js"></script>
         <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+        <script src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script src="/js/jquery.fancybox.pack.js"></script>
         <script src="/js/main.js"></script>
     </head>
 

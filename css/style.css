@@ -1,6 +1,7 @@
 @import 'fotorama.css';
 @import 'select2.min.css';
 @import 'normalize.css';
+@import 'jquery.fancybox.css';
 a {
   outline: 0;
 }
@@ -43,7 +44,8 @@ h2 {
   padding: 12px 24px 10px;
 }
 .select--type-transparent + .select2 .select2-selection {
-  background: transparent;
+  background-color: transparent;
+  box-shadow: none;
 }
 .select--type-transparent + .select2 .select2-selection__rendered {
   color: #06418a;
@@ -71,7 +73,7 @@ h2 {
 }
 .select2 .select2-selection {
   border-color: transparent;
-  background: #fff;
+  background-color: #fff;
   box-shadow: 0 5px 50px rgba(0,0,0,0.15);
 }
 .select2 .select2-selection__rendered {
@@ -144,6 +146,9 @@ h2 {
     background-image: url("../img/sprite2x.png");
     background-size: 162px 1391px !important;
   }
+}
+.fancybox-wrap {
+  border-radius: 3px;
 }
 a {
   text-decoration: none;
@@ -961,6 +966,50 @@ body {
   color: #7f7f7f;
   padding: 0 20px;
   margin-top: -10px;
+}
+.about-people-slider__hidden {
+  display: none;
+}
+.about-people-slider__popup {
+  width: 720px;
+  position: relative;
+}
+.about-people-slider__popup img {
+  border-radius: 3px 3px 0 0;
+}
+.about-people-slider__name,
+.about-people-slider__post,
+.about-people-slider__description {
+  position: absolute;
+  left: 60px;
+  color: #fff;
+}
+.about-people-slider__name {
+  font-size: 35px;
+  top: 50px;
+}
+.about-people-slider__post {
+  font-size: 24px;
+  top: 105px;
+}
+.about-people-slider__description {
+  font-size: 19px;
+  line-height: 1.9em;
+  top: 342px;
+}
+.about-people-slider__text {
+  font-size: 19px;
+  padding: 0 60px;
+  margin-top: 27px;
+}
+.about-people-slider__text h4 {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1.85em;
+}
+.about-people-slider__text p {
+  margin-top: -1px;
+  line-height: 1.9em;
 }
 .about-value-block {
   font-size: 19px;

@@ -1,6 +1,7 @@
 @require 'fotorama.css'
 @require 'select2.min.css'
 @require 'normalize.css'
+@require 'jquery.fancybox.css'
 @require 'sprite'
 @require 'common'
 @require 'default'
@@ -645,6 +646,50 @@ body
     color #7f7f7f
     padding 0 20px
     margin-top -10px
+
+  &__hidden
+    display none
+
+  &__popup
+    width 720px
+    position relative
+
+    img
+      border-radius 3px 3px 0 0
+
+  &__name,
+  &__post,
+  &__description
+    position absolute
+    left 60px
+    color #fff
+
+  &__name
+    font-size 35px
+    top 50px
+
+  &__post
+    font-size 24px
+    top 105px
+
+  &__description
+    font-size 19px
+    line-height 1.9em
+    top 342px
+
+  &__text
+    font-size 19px
+    padding 0 60px
+    margin-top 27px
+
+    h4
+      font-size 24px
+      margin 0
+      line-height 1.85em
+
+    p
+      margin-top -1px
+      line-height 1.9em
 
 .about-value-block
   font-size 19px

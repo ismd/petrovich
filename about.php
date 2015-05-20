@@ -43,12 +43,28 @@
 
         <div class="about-bxslider">
             <div class="about-people-slider__slide">
-                <a href="javascript:void(0)"
-                   class="about-people-slider__slide-link">
+                <a href="#about-people-slider-1"
+                   class="fancybox about-people-slider__slide-link">
                     <img src="/pictures/about/slide-1.jpg" alt="" />
                     <div class="about-people-slider__slide-name">Андрей Иванов</div>
                     <div class="about-people-slider__slide-description">Про развитие в компании</div>
                 </a>
+
+                <div class="about-people-slider__hidden">
+                    <div id="about-people-slider-1" class="about-people-slider__popup">
+                        <img src="/pictures/about/popup-1.jpg" alt="" />
+
+                        <div class="about-people-slider__name">Андрей Иванов</div>
+                        <div class="about-people-slider__post">Начальник склада</div>
+                        <div class="about-people-slider__description">В&nbsp;компании работает три<br />года, начинал рядовым<br />логистом на&nbsp;складе</div>
+
+                        <div class="about-people-slider__text">
+                            <h4>Я&nbsp;работаю в&nbsp;этой компании, потому что здесь есть возможность расти</h4>
+
+                            <p>Можно устроиться, напрмер, оператором, и&nbsp;вырасти до&nbsp;администратора. Насколько я&nbsp;знаю, половина &laquo;топов&raquo; компании когда-то устраивались на&nbsp;базовые должности.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="about-people-slider__slide">

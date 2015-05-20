@@ -57,7 +57,11 @@
             <p>Приветствуется опыт складской работы и&nbsp;знание строительных материалов Приветствуется опыт работы на&nbsp;складах с&nbsp;адресной системой хранения Желателен опыт работы с&nbsp;ПК&nbsp;Ответственность, аккуратность, исполнительность</p>
         </div>
 
-        <img src="/pictures/vacancy/social.png" alt="" />
+        <div class="social-likes">
+	        <div class="facebook" title="Share link on Facebook">Facebook</div>
+	        <div class="twitter" title="Share link on Twitter">Twitter</div>
+	        <div class="plusone" title="Share link on Google+">Google+</div>
+        </div>
     </div>
 
     <div class="js-vacancy-fixed vacancy-right">

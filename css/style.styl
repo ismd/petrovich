@@ -1254,6 +1254,7 @@ body
     &--type-textarea
       margin-top 4px
       padding-top 7px
+      height 79px
 
   &-select + .select2
     margin 0
@@ -1263,3 +1264,32 @@ body
 
       &__arrow
         margin-top -4px
+
+  &-resume
+    background-color #f7f5ef
+    text-align center
+    padding-top 60px
+    padding-bottom 56px
+    font-size 13px
+
+    &:before
+      sprite($vacancy-form-resume)
+      display inline-block
+      content ''
+
+    p
+      margin 9px 0
+      line-height 1.8em
+
+      &:first-child
+        margin-bottom 25px
+
+    &__file
+      border 1px solid #ddd
+      border-radius 3px
+      position relative
+      top -4px
+      width 300px
+      height 36px
+      padding 0 10px
+      line-height 14px

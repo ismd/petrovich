@@ -139,6 +139,22 @@
                     </tr>
                 </table>
             </div>
+
+            <h5 class="vacancy-form__block-title">Резюме</h5>
+            <div class="vacancy-form-resume">
+                <p>
+                    <b>Загрузите ваше резюме</b><br />
+                    pdf или doc файл
+                </p>
+
+                <p>
+                    <b>или вставьте на него ссылку</b>
+                </p>
+
+                <input class="vacancy-form-resume__file"
+                       type="text"
+                       placeholder="hh.ru, moikrug.ru, linkedin.com и т.п." />
+            </div>
         </form>
     </div>
 </div>

@@ -148,7 +148,7 @@ h5 {
 }
 .bx-wrapper .bx-prev {
   background-image: url("../img/sprite.png");
-  background-position: 0px -998px;
+  background-position: 0px -1133px;
   width: 40px;
   height: 70px;
   left: -50px;
@@ -156,12 +156,12 @@ h5 {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .bx-wrapper .bx-prev {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .bx-wrapper .bx-next {
   background-image: url("../img/sprite.png");
-  background-position: 0px -1069px;
+  background-position: 0px -1062px;
   width: 40px;
   height: 70px;
   right: -50px;
@@ -169,7 +169,7 @@ h5 {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .bx-wrapper .bx-next {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .fancybox-wrap {
@@ -251,7 +251,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .menu__item + .menu__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .menu__item-list:after {
@@ -314,19 +314,19 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__logo {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .header__logo--page-main {
   background-image: url("../img/sprite.png");
-  background-position: 0px -491px;
+  background-position: 0px -696px;
   width: 157px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__logo--page-main {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .header__title {
@@ -373,7 +373,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .header__honors:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .header__send-resume {
@@ -419,7 +419,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .footer__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .footer__logo {
@@ -438,7 +438,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .footer__logo-dev {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .main-slider .bx-wrapper {
@@ -488,7 +488,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .main-slider__quote:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .main-slider__author {
@@ -546,7 +546,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .quote__close {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider {
@@ -659,7 +659,7 @@ body {
   .vacancy-slider__icon--store-1,
   .vacancy-slider__icon--students-1 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider__icon--office-2,
@@ -679,7 +679,7 @@ body {
   .vacancy-slider__icon--store-2,
   .vacancy-slider__icon--students-2 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider__icon--office-3,
@@ -687,7 +687,7 @@ body {
 .vacancy-slider__icon--store-3,
 .vacancy-slider__icon--students-3 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -930px;
+  background-position: 0px -994px;
   width: 78px;
   height: 67px;
   top: -77px;
@@ -699,7 +699,7 @@ body {
   .vacancy-slider__icon--store-3,
   .vacancy-slider__icon--students-3 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider__icon--office-4,
@@ -707,7 +707,7 @@ body {
 .vacancy-slider__icon--store-4,
 .vacancy-slider__icon--students-4 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -1140px;
+  background-position: 0px -1204px;
   width: 70px;
   height: 79px;
   top: -56px;
@@ -719,7 +719,7 @@ body {
   .vacancy-slider__icon--store-4,
   .vacancy-slider__icon--students-4 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider__icon--office-5,
@@ -739,7 +739,7 @@ body {
   .vacancy-slider__icon--store-5,
   .vacancy-slider__icon--students-5 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider__icon--office-6,
@@ -759,7 +759,7 @@ body {
   .vacancy-slider__icon--store-6,
   .vacancy-slider__icon--students-6 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider__item {
@@ -788,7 +788,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancy-slider__item:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancy-slider__title {
@@ -1088,62 +1088,62 @@ body {
 }
 .about-value-block__icon--type-1 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -573px;
+  background-position: 0px -614px;
   width: 40px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-1 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-value-block__icon--type-2 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -532px;
+  background-position: 0px -491px;
   width: 38px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-2 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-value-block__icon--type-3 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -696px;
+  background-position: 0px -655px;
   width: 40px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-3 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-value-block__icon--type-4 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -614px;
+  background-position: 0px -532px;
   width: 40px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-4 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-value-block__icon--type-5 {
   background-image: url("../img/sprite.png");
-  background-position: 0px -655px;
+  background-position: 0px -573px;
   width: 48px;
   height: 40px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-5 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-value-block__icon--type-6 {
@@ -1157,7 +1157,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-value-block__icon--type-6 {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-video {
@@ -1192,14 +1192,14 @@ body {
   left: 375px;
   content: '';
   background-image: url("../img/sprite.png");
-  background-position: 0px -1365px;
+  background-position: 0px -1429px;
   width: 148px;
   height: 171px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .video__screen:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .video.paused .video__screen {
@@ -1290,7 +1290,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-1:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-1.about-sidepanel__item--state-active:before {
@@ -1302,7 +1302,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-1.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-2:before {
@@ -1314,7 +1314,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-2:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-2.about-sidepanel__item--state-active:before {
@@ -1326,7 +1326,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-2.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-3:before {
@@ -1338,7 +1338,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-3:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-3.about-sidepanel__item--state-active:before {
@@ -1350,7 +1350,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-3.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-4:before {
@@ -1362,7 +1362,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-4:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-4.about-sidepanel__item--state-active:before {
@@ -1374,43 +1374,43 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-4.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-5:before {
-  background-image: url("../img/sprite.png");
-  background-position: 0px -252px;
-  width: 25px;
-  height: 25px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
-  .about-sidepanel__item--type-5:before {
-    background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
-  }
-}
-.about-sidepanel__item--type-5.about-sidepanel__item--state-active:before {
-  background-image: url("../img/sprite.png");
-  background-position: 0px -226px;
-  width: 25px;
-  height: 25px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
-  .about-sidepanel__item--type-5.about-sidepanel__item--state-active:before {
-    background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
-  }
-}
-.about-sidepanel__item--type-6:before {
   background-image: url("../img/sprite.png");
   background-position: 0px -174px;
   width: 25px;
   height: 25px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .about-sidepanel__item--type-5:before {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 1600px !important;
+  }
+}
+.about-sidepanel__item--type-5.about-sidepanel__item--state-active:before {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -252px;
+  width: 25px;
+  height: 25px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .about-sidepanel__item--type-5.about-sidepanel__item--state-active:before {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 1600px !important;
+  }
+}
+.about-sidepanel__item--type-6:before {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -226px;
+  width: 25px;
+  height: 25px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-6:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .about-sidepanel__item--type-6.about-sidepanel__item--state-active:before {
@@ -1422,7 +1422,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .about-sidepanel__item--type-6.about-sidepanel__item--state-active:before {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .vacancies__center {
@@ -1566,14 +1566,14 @@ body {
   top: 280px;
   right: 0;
   background-image: url("../img/sprite.png");
-  background-position: 0px -1220px;
+  background-position: 0px -1284px;
   width: 62px;
   height: 144px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
   .vacancies-right-car {
     background-image: url("../img/sprite2x.png");
-    background-size: 162px 1536px !important;
+    background-size: 162px 1600px !important;
   }
 }
 .pager {
@@ -1773,6 +1773,7 @@ body {
 .vacancy-form__input-text--type-textarea {
   margin-top: 4px;
   padding-top: 7px;
+  height: 79px;
 }
 .vacancy-form-select + .select2 {
   margin: 0;
@@ -1782,4 +1783,42 @@ body {
 }
 .vacancy-form-select + .select2 .select2-selection__arrow {
   margin-top: -4px;
+}
+.vacancy-form-resume {
+  background-color: #f7f5ef;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 56px;
+  font-size: 13px;
+}
+.vacancy-form-resume:before {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -930px;
+  width: 79px;
+  height: 63px;
+  display: inline-block;
+  content: '';
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .vacancy-form-resume:before {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 1600px !important;
+  }
+}
+.vacancy-form-resume p {
+  margin: 9px 0;
+  line-height: 1.8em;
+}
+.vacancy-form-resume p:first-child {
+  margin-bottom: 25px;
+}
+.vacancy-form-resume__file {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  position: relative;
+  top: -4px;
+  width: 300px;
+  height: 36px;
+  padding: 0 10px;
+  line-height: 14px;
 }

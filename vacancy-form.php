@@ -26,6 +26,7 @@
                         <td class="vacancy-form__table-cell">Фамилия:</td>
                         <td>
                             <input class="vacancy-form__input-text"
+                                   data-required="y"
                                    type="text" placeholder="Иванов" />
                         </td>
                     </tr>
@@ -33,6 +34,7 @@
                         <td class="vacancy-form__table-cell">Имя:</td>
                         <td>
                             <input class="vacancy-form__input-text"
+                                   data-required="y"
                                    type="text" placeholder="Иван" />
                         </td>
                     </tr>
@@ -40,6 +42,7 @@
                         <td class="vacancy-form__table-cell">Отчество:</td>
                         <td>
                             <input class="vacancy-form__input-text"
+                                   data-required="y"
                                    type="text" placeholder="Иванович" />
                         </td>
                     </tr>
@@ -81,7 +84,8 @@
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Контактный телефон:</td>
                         <td>
-                            <input class="vacancy-form__input-text"
+                            <input class="js-phone-mask vacancy-form__input-text"
+                                   data-required="y"
                                    type="text" placeholder="+7 (XXX) XXX-XX-XX" />
                         </td>
                     </tr>

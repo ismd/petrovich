@@ -223,4 +223,7 @@ $(function() {
             }
         });
     });
+
+    // Masked input
+    $('.js-phone-mask').mask('+7 (999) 999-99-99');
 });

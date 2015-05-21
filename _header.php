@@ -36,7 +36,7 @@
 
                 <ul class="menu__dropdown">
                     <li>
-                        <a href="javascript:void(0)"
+                        <a href="/culture-idea.php"
                            class="menu__dropdown-item">Есть идея!</a>
                     </li>
                     <li>
@@ -118,6 +118,8 @@
                                     Анкета на вакансию
                                 <? elseif ('/vacancy-form-success.php' == $_SERVER['PHP_SELF']): ?>
                                     Анкета отправлена
+                                <? elseif ('/culture-idea.php' == $_SERVER['PHP_SELF']): ?>
+                                    Есть идея!
                                 <? endif; ?>
                             </div>
 

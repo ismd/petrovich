@@ -187,3 +187,41 @@ h5
 
 .fancybox-wrap
   border-radius 3px
+
+.fancybox-close
+  sprite($popup-close)
+  top 20px
+  right 21px
+
+.fotorama
+  &__stage__frame:before
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    content ''
+    z-index 10
+    background linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)
+    filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=0 )")
+
+
+  &__caption
+    bottom 16px
+    padding 0 45px
+    background-color transparent
+    font-size 16px
+    color #fff
+
+    &__wrap
+      background-color transparent
+      text-align center
+
+  &__arr
+    &--next
+      sprite($bx-next)
+      right 8px
+
+    &--prev
+      sprite($bx-prev)
+      left 8px

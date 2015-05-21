@@ -6,7 +6,10 @@ $(function() {
         pause: 7000
     });
 
-    $('.about-bxslider').bxSlider({
+    var $carousel = $('.js-carousel');
+
+    $carousel.bxSlider({
+        controls: $carousel.find('> div').length > 3,
         minSlides: 1,
         maxSlides: 3,
         moveSlides: 1,
@@ -24,6 +27,22 @@ $(function() {
         },
         padding: 0,
         scrolling: false
+    });
+
+    $('.fancybox-fotorama').fancybox({
+        helpers: {
+            overlay: {
+                locked: false
+            }
+        },
+        padding: 38,
+        scrolling: false,
+        afterShow: function() {
+            $('.fotorama').fotorama({
+                caption: 'overlay'
+            });
+            $.fancybox.update();
+        }
     });
 
     $.each($('select'), function(i, select) {

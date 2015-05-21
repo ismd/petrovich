@@ -26,9 +26,9 @@
        data-id="#about-contacts">Контакты</a>
 </div>
 
-<div class="about-big-image">
+<div class="big-image">
     <img src="/pictures/about/big.jpg" alt="" />
-    <div class="about-big-image__text">К нам приходят работать надолго — с нашей стороны есть все условия для этого</div>
+    <div class="big-image__text">К нам приходят работать надолго — с нашей стороны есть все условия для этого</div>
 </div>
 
 <div id="about-mission" class="layout">
@@ -38,27 +38,27 @@
         </div>
     </div>
 
-    <div id="about-people" class="about-people-slider">
-        <h2 class="about-people-slider__title">Петрович — это в первую очередь люди</h2>
+    <div id="about-people" class="carousel">
+        <h2 class="carousel__title">Петрович — это в первую очередь люди</h2>
 
-        <div class="about-bxslider">
-            <div class="about-people-slider__slide">
-                <a href="#about-people-slider-1"
-                   class="fancybox about-people-slider__slide-link">
+        <div class="js-carousel">
+            <div class="carousel__slide">
+                <a href="#carousel-1"
+                   class="fancybox carousel__slide-link">
                     <img src="/pictures/about/slide-1.jpg" alt="" />
-                    <div class="about-people-slider__slide-name">Андрей Иванов</div>
-                    <div class="about-people-slider__slide-description">Про развитие в компании</div>
+                    <div class="carousel__slide-name">Андрей Иванов</div>
+                    <div class="carousel__slide-description">Про развитие в компании</div>
                 </a>
 
-                <div class="about-people-slider__hidden">
-                    <div id="about-people-slider-1" class="about-people-slider__popup">
+                <div class="carousel__hidden">
+                    <div id="carousel-1" class="carousel__popup">
                         <img src="/pictures/about/popup-1.jpg" alt="" />
 
-                        <div class="about-people-slider__name">Андрей Иванов</div>
-                        <div class="about-people-slider__post">Начальник склада</div>
-                        <div class="about-people-slider__description">В&nbsp;компании работает три<br />года, начинал рядовым<br />логистом на&nbsp;складе</div>
+                        <div class="carousel__name">Андрей Иванов</div>
+                        <div class="carousel__post">Начальник склада</div>
+                        <div class="carousel__description">В&nbsp;компании работает три<br />года, начинал рядовым<br />логистом на&nbsp;складе</div>
 
-                        <div class="about-people-slider__text">
+                        <div class="carousel__text">
                             <h4>Я&nbsp;работаю в&nbsp;этой компании, потому что здесь есть возможность расти</h4>
 
                             <p>Можно устроиться, напрмер, оператором, и&nbsp;вырасти до&nbsp;администратора. Насколько я&nbsp;знаю, половина &laquo;топов&raquo; компании когда-то устраивались на&nbsp;базовые должности.</p>
@@ -67,48 +67,48 @@
                 </div>
             </div>
 
-            <div class="about-people-slider__slide">
+            <div class="carousel__slide">
                 <a href="javascript:void(0)"
-                   class="about-people-slider__slide-link">
+                   class="carousel__slide-link">
                     <img src="/pictures/about/slide-2.jpg" alt="" />
-                    <div class="about-people-slider__slide-name">Сергей Петров</div>
-                    <div class="about-people-slider__slide-description">Миссия и ценности</div>
+                    <div class="carousel__slide-name">Сергей Петров</div>
+                    <div class="carousel__slide-description">Миссия и ценности</div>
                 </a>
             </div>
 
-            <div class="about-people-slider__slide">
+            <div class="carousel__slide">
                 <a href="javascript:void(0)"
-                   class="about-people-slider__slide-link">
+                   class="carousel__slide-link">
                     <img src="/pictures/about/slide-3.jpg" alt="" />
-                    <div class="about-people-slider__slide-name">Александра Сидорова</div>
-                    <div class="about-people-slider__slide-description">Направление развития</div>
+                    <div class="carousel__slide-name">Александра Сидорова</div>
+                    <div class="carousel__slide-description">Направление развития</div>
                 </a>
             </div>
 
-            <div class="about-people-slider__slide">
+            <div class="carousel__slide">
                 <a href="javascript:void(0)"
-                   class="about-people-slider__slide-link">
+                   class="carousel__slide-link">
                     <img src="/pictures/about/slide-1.jpg" alt="" />
-                    <div class="about-people-slider__slide-name">Андрей Иванов</div>
-                    <div class="about-people-slider__slide-description">Про развитии в компании</div>
+                    <div class="carousel__slide-name">Андрей Иванов</div>
+                    <div class="carousel__slide-description">Про развитии в компании</div>
                 </a>
             </div>
 
-            <div class="about-people-slider__slide">
+            <div class="carousel__slide">
                 <a href="javascript:void(0)"
-                   class="about-people-slider__slide-link">
+                   class="carousel__slide-link">
                     <img src="/pictures/about/slide-2.jpg" alt="" />
-                    <div class="about-people-slider__slide-name">Сергей Петров</div>
-                    <div class="about-people-slider__slide-description">Миссия и ценности</div>
+                    <div class="carousel__slide-name">Сергей Петров</div>
+                    <div class="carousel__slide-description">Миссия и ценности</div>
                 </a>
             </div>
 
-            <div class="about-people-slider__slide">
+            <div class="carousel__slide">
                 <a href="javascript:void(0)"
-                   class="about-people-slider__slide-link">
+                   class="carousel__slide-link">
                     <img src="/pictures/about/slide-3.jpg" alt="" />
-                    <div class="about-people-slider__slide-name">Александра Сидорова</div>
-                    <div class="about-people-slider__slide-description">Направление развития</div>
+                    <div class="carousel__slide-name">Александра Сидорова</div>
+                    <div class="carousel__slide-description">Направление развития</div>
                 </a>
             </div>
         </div>

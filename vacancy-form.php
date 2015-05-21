@@ -166,6 +166,24 @@
                    value="Отправить" />
         </form>
     </div>
+
+    <div class="vacancy-form-additional">
+        <h5>Дополнительные поля</h5>
+        Чем больше полей заполнено, тем проще нам будем понять нашу совместимость
+
+        <div class="vacancy-form-additional__buttons">
+            <a href="javascript:void(0)"
+               class="button button--type-dim vacancy-form-additional__button">Знание иностранного языка</a><br />
+            <a href="javascript:void(0)"
+               class="button button--type-dim vacancy-form-additional__button">Увлечения и привычки</a><br />
+            <a href="javascript:void(0)"
+               class="button button--type-dim vacancy-form-additional__button">Пожелания к будущей работе</a><br />
+        </div>
+
+        <i>Не заполняйте эти поля, если всё это есть в резюме</i>
+    </div>
+
+    <div class="clear"></div>
 </div>
 
 <? require '_footer.php' ?>

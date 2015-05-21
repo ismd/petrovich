@@ -55,6 +55,18 @@ h5 {
 .button--type-transparent:hover {
   background-color: #ffdc18;
 }
+.button--type-dim {
+  height: 23px;
+  padding: 6px 10px;
+  background-color: #ffeb9b;
+  font-size: 13px;
+  color: #724a09;
+}
+.button--type-dim:hover,
+.button--type-dim:active {
+  background-color: #ffdc18;
+  color: #724a09;
+}
 .select--type-transparent + .select2 .select2-selection {
   background-color: transparent;
   box-shadow: none;
@@ -1732,6 +1744,7 @@ body {
   padding-top: 47px;
   padding-left: 103px;
   width: 540px;
+  float: left;
 }
 .vacancy-form__table-row {
   border-top: 1px solid #ddd;
@@ -1849,4 +1862,20 @@ body {
   width: 100%;
   margin-top: 32px;
   padding: 11px 0 14px;
+}
+.vacancy-form-additional {
+  padding-top: 21px;
+  padding-left: 685px;
+  font-size: 12px;
+  line-height: 1.9em;
+}
+.vacancy-form-additional h5 {
+  margin-bottom: 7px;
+}
+.vacancy-form-additional__buttons {
+  padding-top: 12px;
+  padding-bottom: 9px;
+}
+.vacancy-form-additional__button {
+  margin-bottom: 4px;
 }

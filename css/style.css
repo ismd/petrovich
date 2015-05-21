@@ -1928,3 +1928,18 @@ body {
 .vacancy-form__hidden-block {
   display: none;
 }
+.vacancy-form-success {
+  text-align: center;
+  padding-top: 14px;
+}
+.vacancy-form-success p {
+  margin: -12px auto;
+  width: 570px;
+  text-align: left;
+  font-size: 19px;
+  line-height: 2em;
+}
+.vacancy-form-success__button {
+  width: 505px;
+  margin-top: 50px;
+}

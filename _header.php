@@ -116,6 +116,8 @@
                                     Инженер по эксплуатации зданий и сооружений
                                 <? elseif ('/vacancy-form.php' == $_SERVER['PHP_SELF']): ?>
                                     Анкета на вакансию
+                                <? elseif ('/vacancy-form-success.php' == $_SERVER['PHP_SELF']): ?>
+                                    Анкета отправлена
                                 <? endif; ?>
                             </div>
 

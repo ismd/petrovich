@@ -1199,3 +1199,67 @@ body
   p
     line-height 1.6em
     margin 29px 0
+
+.vacancy-form
+  padding-top 47px
+  padding-left 103px
+  width 540px
+
+  &__table-row
+    border-top 1px solid #ddd
+
+    &:first-child
+      border-top-color transparent
+
+  &__table-cell
+    &:first-child
+      width 217px
+      font-size 13px
+      font-weight bold
+      text-align right
+      vertical-align top
+      padding-top 8px
+
+  &__table-date-cell
+    border-left 1px solid #ddd
+    float left
+    width 81px
+    margin-left 9px
+    overflow hidden
+
+    &--type-month
+      width 122px
+
+  &__select + .select2
+    display block
+    width 100%
+    margin-bottom 12px
+
+  &__block-title
+    padding-left 10px
+    margin-bottom 14px
+
+  &__input-text
+    border 0
+    width 312px
+    height 24px
+    font-size 13px
+    position relative
+    top -4px
+    padding-left 9px
+
+    &:focus
+      outline 0
+
+    &--type-textarea
+      margin-top 4px
+      padding-top 7px
+
+  &-select + .select2
+    margin 0
+
+    .select2-selection
+      height 31px
+
+      &__arrow
+        margin-top -4px

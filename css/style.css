@@ -69,6 +69,16 @@ h5 {
 .select--type-transparent + .select2:hover .select2-selection__arrow b {
   border-top-color: #cc3500;
 }
+.select--type-no-shadow + .select2 .select2-selection {
+  box-shadow: none;
+}
+.select--borders-yes + .select2 .select2-selection {
+  border: 1px solid #ddd;
+  height: 39px;
+}
+.select--borders-yes + .select2 .select2-selection__rendered {
+  line-height: 29px;
+}
 .select2 * {
   outline: 0;
 }
@@ -79,8 +89,15 @@ h5 {
   border-color: transparent;
   background-color: #fff;
   box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+  border-radius: 3px;
 }
-.select2 .select2-selection__rendered {
+.select2 .selection .select2-selection__arrow b {
+  margin-left: 2px;
+  margin-top: -1px;
+  border-width: 4px 3px 0 4px;
+  border-top-color: #000;
+}
+.select2 .selection .select2-selection__rendered {
   font-size: 16px;
   padding-top: 3px;
   padding-left: 12px;
@@ -108,6 +125,10 @@ h5 {
 }
 .select2-container--default .select2-results__options .select2-results__option:hover {
   background-color: #ffdc18;
+}
+.form-block {
+  border: 1px solid #ddd;
+  border-radius: 3px;
 }
 .bx-wrapper {
   position: relative;
@@ -1698,4 +1719,67 @@ body {
 .text-content p {
   line-height: 1.6em;
   margin: 29px 0;
+}
+.vacancy-form {
+  padding-top: 47px;
+  padding-left: 103px;
+  width: 540px;
+}
+.vacancy-form__table-row {
+  border-top: 1px solid #ddd;
+}
+.vacancy-form__table-row:first-child {
+  border-top-color: transparent;
+}
+.vacancy-form__table-cell:first-child {
+  width: 217px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 8px;
+}
+.vacancy-form__table-date-cell {
+  border-left: 1px solid #ddd;
+  float: left;
+  width: 81px;
+  margin-left: 9px;
+  overflow: hidden;
+}
+.vacancy-form__table-date-cell--type-month {
+  width: 122px;
+}
+.vacancy-form__select + .select2 {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.vacancy-form__block-title {
+  padding-left: 10px;
+  margin-bottom: 14px;
+}
+.vacancy-form__input-text {
+  border: 0;
+  width: 312px;
+  height: 24px;
+  font-size: 13px;
+  position: relative;
+  top: -4px;
+  padding-left: 9px;
+}
+.vacancy-form__input-text:focus {
+  outline: 0;
+}
+.vacancy-form__input-text--type-textarea {
+  margin-top: 4px;
+  padding-top: 7px;
+}
+.vacancy-form-select + .select2 {
+  margin: 0;
+}
+.vacancy-form-select + .select2 .select2-selection {
+  height: 31px;
+}
+.vacancy-form-select + .select2 .select2-selection__arrow {
+  margin-top: -4px;
 }

@@ -65,7 +65,7 @@
     </div>
 
     <div class="js-vacancy-fixed vacancy-right">
-        <a href="javascript:void(0)"
+        <a href="/vacancy-form.php"
            class="button">Заполнить анкету</a>
 
         <div class="vacancy-right__text">Я&nbsp;согласен на&nbsp;обработку моих персональных данных</div>

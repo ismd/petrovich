@@ -112,6 +112,8 @@
                                     Вакансии компании Петрович
                                 <? elseif ('/vacancy.php' == $_SERVER['PHP_SELF']): ?>
                                     Инженер по эксплуатации зданий и сооружений
+                                <? elseif ('/vacancy-form.php' == $_SERVER['PHP_SELF']): ?>
+                                    Анкета на вакансию
                                 <? endif; ?>
                             </div>
 

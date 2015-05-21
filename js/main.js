@@ -26,8 +26,16 @@ $(function() {
         scrolling: false
     });
 
-    $('select').select2({
-        minimumResultsForSearch: Infinity
+    $.each($('select'), function(i, select) {
+        var $select     = $(select),
+            placeholder = $select.data('placeholder'),
+            width       = $select.data('width');
+
+        $select.select2({
+            minimumResultsForSearch: Infinity,
+            placeholder: placeholder,
+            width: width
+        });
     });
 
     // Меню

@@ -1925,3 +1925,6 @@ body {
 .vacancy-form-additional__button {
   margin-bottom: 4px;
 }
+.vacancy-form__hidden-block {
+  display: none;
+}

@@ -107,49 +107,196 @@
                 </table>
             </div>
 
-            <h5 class="vacancy-form__block-title">Образование</h5>
-            <div class="form-block">
-                <table>
-                    <tr class="vacancy-form__table-row">
-                        <td class="vacancy-form__table-cell">Образование:</td>
-                        <td class="vacancy-form__table-cell-value">
-                            <select class="vacancy-form-select select select--type-no-shadow"
-                                    data-width="100%">
-                                <option></option>
-                                <option value="1">Образование 1</option>
-                                <option value="2">Образование 2</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr class="vacancy-form__table-row">
-                        <td class="vacancy-form__table-cell">Название учебного заведения:</td>
-                        <td class="vacancy-form__table-cell-value">
-                            <input class="vacancy-form__input-text"
-                                   type="text" />
-                        </td>
-                    </tr>
-                    <tr class="vacancy-form__table-row">
-                        <td class="vacancy-form__table-cell">Специальность:</td>
-                        <td class="vacancy-form__table-cell-value">
-                            <input class="vacancy-form__input-text"
-                                   type="text" />
-                        </td>
-                    </tr>
-                    <tr class="vacancy-form__table-row">
-                        <td class="vacancy-form__table-cell">Год окончания учёбы:</td>
-                        <td class="vacancy-form__table-cell-value">
-                            <input class="vacancy-form__input-text"
-                                   type="text" />
-                        </td>
-                    </tr>
-                    <tr class="vacancy-form__table-row">
-                        <td class="vacancy-form__table-cell">Дополнтельное образование:</td>
-                        <td class="vacancy-form__table-cell-value">
-                            <textarea class="vacancy-form__input-text vacancy-form__input-text--type-textarea"
-                                      placeholder="Курсы, повышение квалификации и т.д."></textarea>
-                        </td>
-                    </tr>
-                </table>
+            <div class="vacancy-form__hidden-block"
+                 id="vacancy-block-1">
+                <h5 class="vacancy-form__block-title">Образование</h5>
+                <div class="form-block">
+                    <table>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <select class="vacancy-form-select select select--type-no-shadow"
+                                        data-width="100%">
+                                    <option></option>
+                                    <option value="1">Образование 1</option>
+                                    <option value="2">Образование 2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Название учебного заведения:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Специальность:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Год окончания учёбы:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Дополнтельное образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <textarea class="vacancy-form__input-text vacancy-form__input-text--type-textarea"
+                                          placeholder="Курсы, повышение квалификации и т.д."></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="vacancy-form__hidden-block"
+                 id="vacancy-block-2">
+                <h5 class="vacancy-form__block-title">Знание иностранного языка</h5>
+                <div class="form-block">
+                    <table>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <select class="vacancy-form-select select select--type-no-shadow"
+                                        data-width="100%">
+                                    <option></option>
+                                    <option value="1">Образование 1</option>
+                                    <option value="2">Образование 2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Название учебного заведения:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Специальность:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Год окончания учёбы:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Дополнтельное образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <textarea class="vacancy-form__input-text vacancy-form__input-text--type-textarea"
+                                          placeholder="Курсы, повышение квалификации и т.д."></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="vacancy-form__hidden-block"
+                 id="vacancy-block-3">
+                <h5 class="vacancy-form__block-title">Увлечения и привычки</h5>
+                <div class="form-block">
+                    <table>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <select class="vacancy-form-select select select--type-no-shadow"
+                                        data-width="100%">
+                                    <option></option>
+                                    <option value="1">Образование 1</option>
+                                    <option value="2">Образование 2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Название учебного заведения:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Специальность:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Год окончания учёбы:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Дополнтельное образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <textarea class="vacancy-form__input-text vacancy-form__input-text--type-textarea"
+                                          placeholder="Курсы, повышение квалификации и т.д."></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="vacancy-form__hidden-block"
+                 id="vacancy-block-4">
+                <h5 class="vacancy-form__block-title">Пожелания к будущей работе</h5>
+                <div class="form-block">
+                    <table>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <select class="vacancy-form-select select select--type-no-shadow"
+                                        data-width="100%">
+                                    <option></option>
+                                    <option value="1">Образование 1</option>
+                                    <option value="2">Образование 2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Название учебного заведения:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Специальность:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Год окончания учёбы:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <input class="vacancy-form__input-text"
+                                       type="text" />
+                            </td>
+                        </tr>
+                        <tr class="vacancy-form__table-row">
+                            <td class="vacancy-form__table-cell">Дополнтельное образование:</td>
+                            <td class="vacancy-form__table-cell-value">
+                                <textarea class="vacancy-form__input-text vacancy-form__input-text--type-textarea"
+                                          placeholder="Курсы, повышение квалификации и т.д."></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
             <h5 class="vacancy-form__block-title">Резюме</h5>
@@ -185,11 +332,17 @@
 
         <div class="vacancy-form-additional__buttons">
             <a href="javascript:void(0)"
-               class="button button--type-dim vacancy-form-additional__button">Знание иностранного языка</a><br />
+               class="js-vacancy-add-block button button--type-dim vacancy-form-additional__button"
+               data-id="#vacancy-block-1">Образование</a><br />
             <a href="javascript:void(0)"
-               class="button button--type-dim vacancy-form-additional__button">Увлечения и привычки</a><br />
+               class="js-vacancy-add-block button button--type-dim vacancy-form-additional__button"
+               data-id="#vacancy-block-2">Знание иностранного языка</a><br />
             <a href="javascript:void(0)"
-               class="button button--type-dim vacancy-form-additional__button">Пожелания к будущей работе</a><br />
+               class="js-vacancy-add-block button button--type-dim vacancy-form-additional__button"
+               data-id="#vacancy-block-3">Увлечения и привычки</a><br />
+            <a href="javascript:void(0)"
+               class="js-vacancy-add-block button button--type-dim vacancy-form-additional__button"
+               data-id="#vacancy-block-4">Пожелания к будущей работе</a><br />
         </div>
 
         <i>Не заполняйте эти поля, если всё это есть в резюме</i>

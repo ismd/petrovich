@@ -262,4 +262,11 @@ $(function() {
     $('.js-form').ajaxForm({
         beforeSubmit: validate
     });
+
+    $('.js-vacancy-add-block').click(function(ev, item) {
+        var $this = $(this);
+
+        $($this.data('id')).show();
+        $this.remove();
+    });
 });

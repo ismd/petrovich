@@ -24,6 +24,7 @@ h5 {
   display: inline-block;
   -webkit-transition: all 0.2s;
           transition: all 0.2s;
+  border-color: transparent;
 }
 .button:hover {
   color: #000;
@@ -46,6 +47,13 @@ h5 {
 .button--type-big {
   font-size: 24px;
   padding: 12px 24px 10px;
+}
+.button--type-transparent {
+  border: 1px solid #ffdc18;
+  background-color: transparent;
+}
+.button--type-transparent:hover {
+  background-color: #ffdc18;
 }
 .select--type-transparent + .select2 .select2-selection {
   background-color: transparent;
@@ -1795,7 +1803,7 @@ body {
   margin: 9px 0;
   line-height: 1.8em;
 }
-.vacancy-form-resume p:first-child {
+.vacancy-form-resume p.vacancy-form-resume__top-p {
   margin-bottom: 25px;
 }
 .vacancy-form-resume__file {
@@ -1836,4 +1844,9 @@ body {
   height: 36px;
   padding: 0 10px;
   line-height: 14px;
+}
+.vacancy-form__submit {
+  width: 100%;
+  margin-top: 32px;
+  padding: 11px 0 14px;
 }

@@ -147,7 +147,7 @@
                        type="file" />
                 <label for="vacancy-form-resume__file"></label>
 
-                <p>
+                <p class="vacancy-form-resume__top-p">
                     <b>Загрузите ваше резюме</b><br />
                     pdf или doc файл
                 </p>
@@ -160,6 +160,10 @@
                        type="text"
                        placeholder="hh.ru, moikrug.ru, linkedin.com и т.п." />
             </div>
+
+            <input class="vacancy-form__submit button button--type-transparent"
+                   type="submit"
+                   value="Отправить" />
         </form>
     </div>
 </div>

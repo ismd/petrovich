@@ -1272,11 +1272,6 @@ body
     padding-bottom 56px
     font-size 13px
 
-    &:before
-      sprite($vacancy-form-resume)
-      display inline-block
-      content ''
-
     p
       margin 9px 0
       line-height 1.8em
@@ -1285,6 +1280,17 @@ body
         margin-bottom 25px
 
     &__file
+      display none
+
+      & + label
+        sprite($vacancy-form-resume)
+        display inline-block
+        cursor pointer
+
+        &:hover
+          sprite($vacancy-form-resume-hover)
+
+    &__file-link
       border 1px solid #ddd
       border-radius 3px
       position relative

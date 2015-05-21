@@ -142,6 +142,11 @@
 
             <h5 class="vacancy-form__block-title">Резюме</h5>
             <div class="vacancy-form-resume">
+                <input id="vacancy-form-resume__file"
+                       class="vacancy-form-resume__file"
+                       type="file" />
+                <label for="vacancy-form-resume__file"></label>
+
                 <p>
                     <b>Загрузите ваше резюме</b><br />
                     pdf или doc файл
@@ -151,7 +156,7 @@
                     <b>или вставьте на него ссылку</b>
                 </p>
 
-                <input class="vacancy-form-resume__file"
+                <input class="vacancy-form-resume__file-link"
                        type="text"
                        placeholder="hh.ru, moikrug.ru, linkedin.com и т.п." />
             </div>

@@ -2,7 +2,7 @@
 
 <div class="layout">
     <div class="vacancy-form">
-        <form class="form">
+        <form class="js-form form">
             <select class="vacancy-form__select select select--type-no-shadow select--borders-yes"
                     data-placeholder="Город, в котором ищете работу"
                     data-width="100%">
@@ -24,31 +24,37 @@
                 <table>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Фамилия:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    data-required="y"
                                    type="text" placeholder="Иванов" />
+
+                            <div class="vacancy-form__table-error">Необходимое поле</div>
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Имя:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    data-required="y"
                                    type="text" placeholder="Иван" />
+
+                            <div class="vacancy-form__table-error">Необходимое поле</div>
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Отчество:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    data-required="y"
                                    type="text" placeholder="Иванович" />
+
+                            <div class="vacancy-form__table-error">Необходимое поле</div>
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Дата рождения:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <div class="vacancy-form__table-date-cell">
                                 <input class="vacancy-form__input-text"
                                        type="text" placeholder="День" />
@@ -69,29 +75,31 @@
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Гражданство:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    type="text" placeholder="РФ" />
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Семейное положение:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    type="text" placeholder="Холост" />
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Контактный телефон:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="js-phone-mask vacancy-form__input-text"
                                    data-required="y"
                                    type="text" placeholder="+7 (XXX) XXX-XX-XX" />
+
+                            <div class="vacancy-form__table-error">Необходимое поле</div>
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Электронная почта:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    type="text" placeholder="Необязательно" />
                         </td>
@@ -104,7 +112,7 @@
                 <table>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Образование:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <select class="vacancy-form-select select select--type-no-shadow"
                                     data-width="100%">
                                 <option></option>
@@ -115,28 +123,28 @@
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Название учебного заведения:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    type="text" />
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Специальность:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    type="text" />
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Год окончания учёбы:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <input class="vacancy-form__input-text"
                                    type="text" />
                         </td>
                     </tr>
                     <tr class="vacancy-form__table-row">
                         <td class="vacancy-form__table-cell">Дополнтельное образование:</td>
-                        <td>
+                        <td class="vacancy-form__table-cell-value">
                             <textarea class="vacancy-form__input-text vacancy-form__input-text--type-textarea"
                                       placeholder="Курсы, повышение квалификации и т.д."></textarea>
                         </td>

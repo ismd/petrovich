@@ -1206,11 +1206,55 @@ body
   width 540px
   float left
 
+  &__table-error
+    display none
+    position absolute
+    top 0
+    right -150px
+    height 22px
+    z-index 20
+    padding-top 5px
+    padding-left 10px
+    padding-right 10px
+    background-color #fcf5f2
+    border 1px solid #cc3500
+    font-size 13px
+    color #cc3500
+
+    &:before
+      position absolute
+      top 8px
+      left -6px
+      width 0
+      height 0
+      border-top 6px solid transparent
+      border-right 7px solid #cc3500
+      border-bottom 6px solid transparent
+      content ''
+
+    &:after
+      position absolute
+      top 9px
+      left -5px
+      width 0
+      height 0
+      border-top 5px solid transparent
+      border-right 6px solid #fcf5f2
+      border-bottom 5px solid transparent
+      content ''
+
   &__table-row
     border-top 1px solid #ddd
 
     &:first-child
       border-top-color transparent
+
+    &--error-yes
+      .vacancy-form__table-cell:first-child
+        color #cc3500
+
+      .vacancy-form__table-error
+        display block
 
   &__table-cell
     &:first-child
@@ -1220,6 +1264,9 @@ body
       text-align right
       vertical-align top
       padding-top 8px
+
+    &-value
+      position relative
 
   &__table-date-cell
     border-left 1px solid #ddd

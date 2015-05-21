@@ -17,6 +17,7 @@
         <script src="/js/jquery.fancybox.pack.js"></script>
         <script src="/js/social-likes.min.js"></script>
         <script src="/js/jquery.maskedinput.min.js"></script>
+        <script src="/js/jquery.form.min.js"></script>
         <script src="/js/main.js"></script>
     </head>
 

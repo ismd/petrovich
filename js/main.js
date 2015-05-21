@@ -226,4 +226,40 @@ $(function() {
 
     // Masked input
     $('.js-phone-mask').mask('+7 (999) 999-99-99');
+
+    var formRowClass   = 'vacancy-form__table-row',
+        formErrorClass = 'vacancy-form__table-row--error-yes';
+
+    function validate(formData, jqForm, options) {
+        var $items = jqForm.find('[data-required="y"]'),
+            result = true,
+            $firstError;
+
+        $.each($items, function(i, item) {
+            var $item   = $(item),
+                $parent = $item.closest('.' + formRowClass);
+
+            if ('' === $item.val()) {
+                result = false;
+
+                $parent.addClass(formErrorClass);
+                if (!$firstError) {
+                    $firstError = $item;
+                }
+            } else {
+                $parent.removeClass(formErrorClass);
+            }
+        });
+
+        if ($firstError) {
+            $.scrollTo($firstError.offset().top - 100);
+        }
+
+        return !result;
+    }
+
+    // Form
+    $('.js-form').ajaxForm({
+        beforeSubmit: validate
+    });
 });

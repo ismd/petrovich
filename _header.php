@@ -89,6 +89,13 @@
                            class="menu__dropdown-item">Учебный центр</a>
                     </li>
                     <li>
+                        <a href="/learning-mba.php"
+                           class="menu__dropdown-item">MBA</a>
+                    </li>
+                    <li>
+                        <a href="/learning-welcome.php"
+                           class="menu__dropdown-item">Welcome-тренинг</a>
+                    </li>
                 </ul>
             </div>
 
@@ -145,6 +152,10 @@
                                     Управление талантами
                                 <? elseif ('/learning-center.php' == $_SERVER['PHP_SELF']): ?>
                                     Учебный центр
+                                <? elseif ('/learning-mba.php' == $_SERVER['PHP_SELF']): ?>
+                                    Executive MBA
+                                <? elseif ('/learning-welcome.php' == $_SERVER['PHP_SELF']): ?>
+                                    Welcome-тренинг
                                 <? endif; ?>
                             </div>
 

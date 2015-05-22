@@ -1834,6 +1834,9 @@ body {
   margin-top: 35px;
   margin-bottom: 45px;
 }
+.text-content figure {
+  line-height: 2em;
+}
 .spacing-text {
   text-align: center;
   font-size: 21px;

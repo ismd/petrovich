@@ -30,7 +30,8 @@
 
                             <div class="fotorama"
                                  data-nav="thumbs"
-                                 data-auto="false">
+                                 data-auto="false"
+                                 data-thumbheight="63">
                                 <img src="/pictures/culture/photo-1.jpg"
                                      alt="Идеальные условия для того, чтобы ни одна хорошая мысль не потерялась. Премия за улучшения для самых инициативных."
                                 data-caption="Идеальные условия для того, чтобы ни одна хорошая мысль не потерялась. Премия за улучшения для самых инициативных." />

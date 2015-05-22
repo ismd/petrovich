@@ -1044,16 +1044,27 @@ body {
 }
 .carousel {
   padding: 0 30px;
+  font-size: 0;
 }
 .carousel__title {
   font-size: 35px;
   text-align: center;
   margin-bottom: 39px;
 }
+.carousel--type-inline {
+  margin-left: 1px;
+  padding-right: 0;
+  margin-bottom: -21px;
+}
 .carousel__slide {
   width: 300px;
   height: 320px;
   padding-left: 10px;
+}
+.carousel__slide--type-inline {
+  display: inline-block;
+  margin-right: -3px;
+  margin-bottom: 21px;
 }
 .carousel__slide-link {
   display: inline-block;
@@ -2032,4 +2043,7 @@ body {
 .vacancy-form-success__button {
   width: 505px;
   margin-top: 50px;
+}
+.center {
+  text-align: center;
 }

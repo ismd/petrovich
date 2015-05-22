@@ -1,18 +1,19 @@
 <? require '_header.php' ?>
 
 <div class="big-image">
-    <img src="/pictures/culture/idea.jpg" alt="" />
+    <img src="/pictures/culture/tradition.jpg" alt="" />
 </div>
 
 <div class="layout">
     <div class="text-content">
         <div class="text-content__page">
-            <p>Во&nbsp;многом &laquo;Петрович&raquo; обязан своим успехом новаторскому подходу, внедрению новых сервисов, услуг, постоянному стремлению предугадать потребности покупателя.</p>
-            <p>Откуда мы&nbsp;берем все эти идеи? Их&nbsp;&laquo;приносят&raquo; нам наши&nbsp;же специалисты. &laquo;Петрович&raquo; создал идеальные условия для того, чтобы ни&nbsp;одна хорошая мысль не&nbsp;потерялась. Наши специалисты участвуют в&nbsp;комитетах, организованных по&nbsp;разным направлениям, например, логистика, продажи, закупки. Здесь обсуждаются насущные вопросы и&nbsp;рождается множество идей, которые потом воплощаются в&nbsp;жизнь.</p>
-            <p>Над новыми проектами работают &laquo;рабочие группы&raquo;, собранные из&nbsp;специалистов разных подразделений для сотворчества. Кроме того, есть &laquo;площадка идей&raquo;&nbsp;&mdash; место, где вы&nbsp;можете зафиксировать свою идею и&nbsp;проследить за&nbsp;её&nbsp;развитием. Для того, чтобы у&nbsp;&laquo;петровичей&raquo; была мотивация постоянно думать над новыми идеями, назначена премия &laquo;за&nbsp;улучшения&raquo;, так что самые инициативные у&nbsp;нас ещё и&nbsp;самые обеспеченные.</p>
+            <h2 class="center">Мы строим семью</h2>
+
+            <p>В&nbsp;2006 году &laquo;Петровичу&raquo; исполняется двадцать лет. Конечно, за&nbsp;эти годы у&nbsp;нас появилось много своих традиций, мероприятий, которые проводятся ежегодно. Так, например, на&nbsp;протяжении последний десяти лет мы&nbsp;собираемся все вместе для встречи Нового года&nbsp;&mdash; это грандиозный праздник, который в&nbsp;Петербурге собирает больше тысячи гостей. Летом&nbsp;же мы&nbsp;выезжаем на&nbsp;природу&nbsp;&mdash; это мероприятие, направленное на&nbsp;тимбилдинг и&nbsp;всегда очень веселое. Мы&nbsp;играли в&nbsp;пейнтбол, разгадывали средневековый квест, бежали лесную эстаферу, сплавлялись на&nbsp;рафтах&nbsp;&mdash; чего только не&nbsp;делали. И&nbsp;что очень радует&nbsp;&mdash; в&nbsp;эти моменты с&nbsp;нами были наши дети!</p>
+            <p>Для специалистов склада каждый год проводится олимпиада&nbsp;&mdash; очень захватывающее зрелище, собирающее множество болельщиков. А&nbsp;у&nbsp;самых умных есть возможность проявить себя на&nbsp;настоящих брейн-рингах.</p>
         </div>
 
-        <div class="text-content__center spacing-text">Новаторство</div>
+        <div class="text-content__center spacing-text">Мероприятия</div>
 
         <div class="carousel carousel--type-inline">
             <div class="carousel__slide carousel__slide--type-inline">
@@ -48,6 +49,24 @@
                     <img src="/pictures/culture/slide-2.jpg" alt="" />
                     <div class="carousel__slide-name">Сергей Петров</div>
                     <div class="carousel__slide-description">Миссия и ценности</div>
+                </a>
+            </div>
+
+            <div class="carousel__slide carousel__slide--type-inline">
+                <a href="javascript:void(0)"
+                   class="carousel__slide-link">
+                    <img src="/pictures/culture/slide-3.jpg" alt="" />
+                    <div class="carousel__slide-name">Александра Сидорова</div>
+                    <div class="carousel__slide-description">Направление развития</div>
+                </a>
+            </div>
+
+            <div class="carousel__slide carousel__slide--type-inline">
+                <a href="javascript:void(0)"
+                   class="carousel__slide-link">
+                    <img src="/pictures/culture/slide-3.jpg" alt="" />
+                    <div class="carousel__slide-name">Александра Сидорова</div>
+                    <div class="carousel__slide-description">Направление развития</div>
                 </a>
             </div>
 

@@ -617,16 +617,27 @@ body
 
 .carousel
   padding 0 30px
+  font-size 0
 
   &__title
     font-size 35px
     text-align center
     margin-bottom 39px
 
+  &--type-inline
+    margin-left 1px
+    padding-right 0
+    margin-bottom -21px
+
   &__slide
     width 300px
     height 320px
     padding-left 10px
+
+    &--type-inline
+      display inline-block
+      margin-right -3px
+      margin-bottom 21px
 
   &__slide-link
     display inline-block
@@ -1413,3 +1424,6 @@ body
   &__button
     width 505px
     margin-top 50px
+
+.center
+  text-align center

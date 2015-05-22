@@ -44,15 +44,15 @@
                            class="menu__dropdown-item">Общение</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"
+                        <a href="/culture-recognition.php"
                            class="menu__dropdown-item">Признание</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"
+                        <a href="/culture-sport.php"
                            class="menu__dropdown-item">Спортивные мероприятия</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"
+                        <a href="/culture-tradition.php"
                            class="menu__dropdown-item">Традиции</a>
                     </li>
                 </ul>
@@ -122,6 +122,12 @@
                                     Есть идея!
                                 <? elseif ('/culture-communication.php' == $_SERVER['PHP_SELF']): ?>
                                     Общение
+                                <? elseif ('/culture-recognition.php' == $_SERVER['PHP_SELF']): ?>
+                                    Признание
+                                <? elseif ('/culture-sport.php' == $_SERVER['PHP_SELF']): ?>
+                                    Спортивные мероприятия
+                                <? elseif ('/culture-tradition.php' == $_SERVER['PHP_SELF']): ?>
+                                    Традиции
                                 <? endif; ?>
                             </div>
 

@@ -65,25 +65,30 @@
 
                 <ul class="menu__dropdown">
                     <li>
-                        <a href="javascript:void(0)"
-                           class="menu__dropdown-item">Есть идея!</a>
+                        <a href="/learning-grants.php"
+                           class="menu__dropdown-item">Гранты</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"
-                           class="menu__dropdown-item">Общение</a>
+                        <a href="/learning-distant.php"
+                           class="menu__dropdown-item">Дистанционное обучение</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"
-                           class="menu__dropdown-item">Признание</a>
+                        <a href="/learning-tutorship.php"
+                           class="menu__dropdown-item">Система наставничества</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"
-                           class="menu__dropdown-item">Спортивные мероприятия</a>
+                        <a href="/learning-university.php"
+                           class="menu__dropdown-item">Университет</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"
-                           class="menu__dropdown-item">Традиции</a>
+                        <a href="/learning-control.php"
+                           class="menu__dropdown-item">Управление талантами</a>
                     </li>
+                    <li>
+                        <a href="/learning-center.php"
+                           class="menu__dropdown-item">Учебный центр</a>
+                    </li>
+                    <li>
                 </ul>
             </div>
 
@@ -128,6 +133,18 @@
                                     Спортивные мероприятия
                                 <? elseif ('/culture-tradition.php' == $_SERVER['PHP_SELF']): ?>
                                     Традиции
+                                <? elseif ('/learning-grants.php' == $_SERVER['PHP_SELF']): ?>
+                                    Грант на обучение
+                                <? elseif ('/learning-distant.php' == $_SERVER['PHP_SELF']): ?>
+                                    Дистанционное обучение
+                                <? elseif ('/learning-tutorship.php' == $_SERVER['PHP_SELF']): ?>
+                                    Система наставничества
+                                <? elseif ('/learning-university.php' == $_SERVER['PHP_SELF']): ?>
+                                    Корпоративный университет
+                                <? elseif ('/learning-control.php' == $_SERVER['PHP_SELF']): ?>
+                                    Управление талантами
+                                <? elseif ('/learning-center.php' == $_SERVER['PHP_SELF']): ?>
+                                    Учебный центр
                                 <? endif; ?>
                             </div>
 

@@ -29,6 +29,10 @@ $(function() {
         scrolling: false
     });
 
+    $('.fotorama').fotorama({
+        caption: 'overlay'
+    });
+
     $('.fancybox-fotorama').fancybox({
         helpers: {
             overlay: {

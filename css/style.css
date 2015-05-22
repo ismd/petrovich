@@ -1043,8 +1043,7 @@ body {
   margin: 0 auto;
 }
 .carousel {
-  padding-top: 45px;
-  padding: 45px 30px 0 30px;
+  padding: 0 30px;
 }
 .carousel__title {
   font-size: 35px;
@@ -1742,13 +1741,13 @@ body {
   position: relative;
   top: -5px;
 }
-.vacancy-text-content.text-content {
+.vacancy-text-.text-content {
   font-size: 18px;
 }
-.vacancy-text-content.text-content h5 {
+.vacancy-text-.text-content h5 {
   margin: 32px 0 -22px 0;
 }
-.vacancy-text-content.text-content p {
+.vacancy-text-.text-content p {
   line-height: 1.6em;
   margin: 29px 0;
 }
@@ -1822,6 +1821,7 @@ body {
 }
 .text-content__center {
   margin-top: 35px;
+  margin-bottom: 45px;
 }
 .spacing-text {
   text-align: center;

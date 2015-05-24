@@ -99,7 +99,7 @@
                 </ul>
             </div>
 
-            <a href="javascript:void(0)"
+            <a href="/charity.php"
                class="menu__item">Благотворительность</a>
         </div>
 
@@ -156,6 +156,8 @@
                                     Executive MBA
                                 <? elseif ('/learning-welcome.php' == $_SERVER['PHP_SELF']): ?>
                                     Welcome-тренинг
+                                <? elseif ('/charity.php' == $_SERVER['PHP_SELF']): ?>
+                                    Благотворительность
                                 <? endif; ?>
                             </div>
 

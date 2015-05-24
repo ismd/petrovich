@@ -302,6 +302,9 @@ body {
 .layout--type-main {
   padding-top: 47px;
 }
+.layout--width-small {
+  width: 925px;
+}
 .menu {
   font-size: 17px;
   text-align: center;
@@ -1017,7 +1020,7 @@ body {
   text-align: center;
   color: #fff;
 }
-.big-image:before {
+.big-image--gradient-yes:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -1042,6 +1045,9 @@ body {
   width: 820px;
   margin: 0 auto;
 }
+.about-mission--bottom-border-no {
+  border-bottom-color: transparent;
+}
 .carousel {
   padding: 0 30px;
   font-size: 0;
@@ -1050,6 +1056,23 @@ body {
   font-size: 35px;
   text-align: center;
   margin-bottom: 39px;
+}
+.carousel__title-text {
+  width: 650px;
+  font-size: 19px;
+  color: #838383;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -21px;
+  line-height: 1.9em;
+  margin-bottom: 40px;
+}
+.carousel--background-yes {
+  margin-top: 58px;
+  padding-top: 20px;
+  background: -webkit-linear-gradient(top, #f4eedc 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, #f4eedc 0%, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4eedc', endColorstr='#00ffffff',GradientType=0 );
 }
 .carousel--type-inline {
   margin-left: 1px;

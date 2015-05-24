@@ -594,6 +594,19 @@ body
     text-align center
     color #fff
 
+    &--type-big
+      width 490px
+      margin 0 auto
+      font-size 19px
+      bottom 23px
+      line-height 2em
+
+  &__text-image
+    position absolute
+    bottom 152px
+    left 50%
+    margin-left -59px
+
   &--gradient-yes:before
     position absolute
     top 0
@@ -617,6 +630,10 @@ body
   &__text
     width 820px
     margin 0 auto
+
+  &__title
+    margin-top -17px
+    margin-bottom 6px
 
   &--bottom-border-no
     border-bottom-color transparent
@@ -1452,3 +1469,50 @@ body
 
 .center
   text-align center
+
+.learning-info
+  padding-top 15px
+  background-color #fbf7e5
+
+  &__title
+    text-align center
+
+  &-table
+    padding-top 6px
+    padding-left 40px
+    padding-bottom 54px
+
+    &__column
+      width 280px
+      padding-right 20px
+      display inline-block
+      vertical-align top
+
+    &__item
+      margin-bottom 20px
+      font-size 18px
+      line-height 1.5em
+      padding-left 24px
+      position relative
+
+      &:before
+        position absolute
+        top 13px
+        left 0
+        sprite($vacancy-slider-item-before)
+        content ''
+
+  &-description
+    text-align center
+    margin 0 auto
+    width 880px
+    border-top 1px solid #cfc184
+    padding-top 16px
+    padding-bottom 50px
+
+    &__text
+      width 480px
+      margin 0 auto
+      padding-top 6px
+      font-size 12px
+      line-height 1.9em

@@ -9,6 +9,9 @@ a {
 h2 {
   font-size: 35px;
 }
+h4 {
+  font-size: 24px;
+}
 h5 {
   font-size: 19px;
 }
@@ -1020,6 +1023,19 @@ body {
   text-align: center;
   color: #fff;
 }
+.big-image__text--type-big {
+  width: 490px;
+  margin: 0 auto;
+  font-size: 19px;
+  bottom: 23px;
+  line-height: 2em;
+}
+.big-image__text-image {
+  position: absolute;
+  bottom: 152px;
+  left: 50%;
+  margin-left: -59px;
+}
 .big-image--gradient-yes:before {
   position: absolute;
   top: 0;
@@ -1044,6 +1060,10 @@ body {
 .about-mission__text {
   width: 820px;
   margin: 0 auto;
+}
+.about-mission__title {
+  margin-top: -17px;
+  margin-bottom: 6px;
 }
 .about-mission--bottom-border-no {
   border-bottom-color: transparent;
@@ -2072,4 +2092,60 @@ body {
 }
 .center {
   text-align: center;
+}
+.learning-info {
+  padding-top: 15px;
+  background-color: #fbf7e5;
+}
+.learning-info__title {
+  text-align: center;
+}
+.learning-info-table {
+  padding-top: 6px;
+  padding-left: 40px;
+  padding-bottom: 54px;
+}
+.learning-info-table__column {
+  width: 280px;
+  padding-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.learning-info-table__item {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+  padding-left: 24px;
+  position: relative;
+}
+.learning-info-table__item:before {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  background-image: url("../img/sprite.png");
+  background-position: 0px 0px;
+  width: 19px;
+  height: 1px;
+  content: '';
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .learning-info-table__item:before {
+    background-image: url("../img/sprite2x.png");
+    background-size: 162px 1681px !important;
+  }
+}
+.learning-info-description {
+  text-align: center;
+  margin: 0 auto;
+  width: 880px;
+  border-top: 1px solid #cfc184;
+  padding-top: 16px;
+  padding-bottom: 50px;
+}
+.learning-info-description__text {
+  width: 480px;
+  margin: 0 auto;
+  padding-top: 6px;
+  font-size: 12px;
+  line-height: 1.9em;
 }

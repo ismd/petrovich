@@ -180,12 +180,14 @@ $(function() {
     function init(){
         map = new ymaps.Map('about-map', {
             center: [55.76, 37.64],
-            controls: [],
+            controls: ['zoomControl'],
             state: {
                 type: 'yandex#publicMap'
             },
             zoom: 7
         });
+
+        map.behaviors.disable('scrollZoom');
 
         var placemark = new ymaps.Placemark([55.76, 37.64], {
             hintContent: 'Москва!',

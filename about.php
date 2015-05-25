@@ -124,43 +124,37 @@
 
         <div class="about-value-block__column">
             <div class="about-value-block__row">
-                <a href="javascript:void(0)"
-                   class="about-value-block__item">
+                <div class="about-value-block__item">
                     <div class="about-value-block__icon about-value-block__icon--type-1"></div>
                     Инфраструктура и&nbsp;технология порядка
-                </a>
+                </div>
 
-                <a href="javascript:void(0)"
-                   class="about-value-block__item">
+                <div class="about-value-block__item">
                     <div class="about-value-block__icon about-value-block__icon--type-2"></div>
                     Сбалансированный ассортимент и&nbsp;системный подход
-                </a>
+                </div>
 
-                <a href="javascript:void(0)"
-                   class="about-value-block__item">
+                <div class="about-value-block__item">
                     <div class="about-value-block__icon about-value-block__icon--type-3"></div>
                     Люди&nbsp;&mdash; главная движущая сила компании
-                </a>
+                </div>
             </div>
 
             <div class="about-value-block__row">
-                <a href="javascript:void(0)"
-                   class="about-value-block__item">
+                <div class="about-value-block__item">
                     <div class="about-value-block__icon about-value-block__icon--type-4"></div>
                     Сервис как религия Максимально просто и&nbsp;быстро
-                </a>
+                </div>
 
-                <a href="javascript:void(0)"
-                   class="about-value-block__item">
+                <div class="about-value-block__item">
                     <div class="about-value-block__icon about-value-block__icon--type-5"></div>
                     Финансы как главный ресурс предприятия
-                </a>
+                </div>
 
-                <a href="javascript:void(0)"
-                   class="about-value-block__item">
+                <div class="about-value-block__item">
                     <div class="about-value-block__icon about-value-block__icon--type-6"></div>
                     Ориентация на&nbsp;потребителя и&nbsp;технологии
-                </a>
+                </div>
             </div>
         </div>
         <div class="clear"></div>

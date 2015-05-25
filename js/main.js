@@ -26,7 +26,9 @@ $(function() {
             }
         },
         padding: 0,
-        scrolling: false
+        scrolling: false,
+        fitToView: false,
+        autoSize: true
     });
 
     $('.fotorama').fotorama({
@@ -41,6 +43,8 @@ $(function() {
         },
         padding: 38,
         scrolling: false,
+        fitToView: false,
+        autoSize: true,
         afterShow: function() {
             $('.fotorama').fotorama({
                 caption: 'overlay'

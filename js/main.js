@@ -240,7 +240,7 @@ $(function() {
         $(window).scroll(function() {
             var scrollTop = $(window).scrollTop();
 
-            if (scrollTop + 90 > top) {
+            if (scrollTop + 93 > top) {
                 $fixed.css({
                     position: 'fixed',
                     left: left,

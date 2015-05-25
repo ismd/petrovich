@@ -133,7 +133,7 @@ h5 {
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow {
   top: 5px;
-  right: 9px;
+  right: 5px;
 }
 .select2:hover .select2-selection__arrow b {
   border-top-color: #cc3500;
@@ -1573,6 +1573,9 @@ body {
 }
 .vacancies__center {
   text-align: center;
+}
+.vacancies__center .select2 {
+  margin-left: -17px;
 }
 .vacancies__center h3 {
   font-size: 29px;

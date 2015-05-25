@@ -56,14 +56,16 @@
     </div>
 
     <div class="culture-center">
-        <h2>Общение</h2>
+        <h2 class="culture-center__title">Общение</h2>
 
         Общение внутри компании&nbsp;&mdash; это&nbsp;то, что позволяет любой рабочий вопрос решить гораздо быстрее и&nbsp;эффективнее. Поэтому коммуникациям мы&nbsp;уделяем особое внимание.<br />
         <a href="javascript:void(0)"
            class="culture-center__link">Что мы&nbsp;для этого делаем</a>
     </div>
+</div>
 
-    <div class="culture-bottom">
+<div class="culture-bottom">
+    <div class="layout">
         <img src="/img/culture-bottom.png" alt="" />
     </div>
 </div>

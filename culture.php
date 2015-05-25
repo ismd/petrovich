@@ -21,12 +21,11 @@
         <a href="javascript:void(0)"
            class="rect-link rect-link--position-alt"
            style="background-image: url('/pictures/culture/background-2.png');">
-            <div class="rect-link__title">Традиции</div>
+            <div class="rect-link__title rect-link__title--color-white">Традиции</div>
             <div class="rect-link__text">У&nbsp;нас много своих традиций, мероприятий, которые проводятся ежегодно. Например, мы&nbsp;все вместе встречаем Новый год</div>
 
             <img src="/pictures/culture/2.png"
-                 class="rect-link__image rect-link__image--position-bottom"
-                 style="margin-left: -69px;"
+                 class="rect-link__image rect-link__image--type-2 rect-link__image--position-bottom"
                  alt="" />
         </a>
 
@@ -37,8 +36,7 @@
             <div class="rect-link__text">Идеальные условия для того, чтобы ни&nbsp;одна хорошая мысль не&nbsp;потерялась. Премия за&nbsp;улучшения для самых инициативных.</div>
 
             <img src="/pictures/culture/3.png"
-                 class="rect-link__image"
-                 style="margin-left: -46px;"
+                 class="rect-link__image rect-link__image--type-3"
                  alt="" />
         </a>
 
@@ -49,8 +47,7 @@
             <div class="rect-link__text">Лучшие сотрудники могут рассчитывать на&nbsp;автомобиль или незабываемое путешествие.</div>
 
             <img src="/pictures/culture/4.png"
-                 class="rect-link__image rect-link__image--position-bottom"
-                 style="margin-left: -80px;"
+                 class="rect-link__image rect-link__image--type-4 rect-link__image--position-bottom"
                  alt="" />
         </a>
     </div>

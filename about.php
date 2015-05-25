@@ -168,7 +168,10 @@
                 Видеообращение<br />директора
             </div>
 
-            <video width="884" height="588" src="/video/H264_test1_Talkinghead_mp4_480x360.mp4">
+            <video width="884"
+                   height="588"
+                   poster="/pictures/about/video.jpg"
+                   src="/video/H264_test1_Talkinghead_mp4_480x360.mp4">
                 Your browser does not support the video tag.
             </video>
         </div>

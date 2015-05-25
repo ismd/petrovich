@@ -125,14 +125,14 @@ $(function() {
         $this.addClass(vacancyActiveClass);
 
         $currentVacancy.animate({
-            left: index > currentVacancySlide ? - windowWidth : windowWidth
+            left: index > currentVacancySlide ? -windowWidth * 2 : windowWidth * 2
         });
 
         $currentVacancy = $vacancyList.eq(index);
         if (index > currentVacancySlide) {
-            $currentVacancy.css('left', windowWidth);
+            $currentVacancy.css('left', windowWidth * 2);
         } else {
-            $currentVacancy.css('left', -windowWidth);
+            $currentVacancy.css('left', -windowWidth * 2);
         }
 
         var $icons = $currentVacancy.find('.' + vacancyIconClass);

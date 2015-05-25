@@ -15,7 +15,8 @@
 
         <div class="fotorama"
              data-nav="thumbs"
-             data-auto="false">
+             data-auto="false"
+             data-arrows="false">
             <img src="/pictures/culture/photo-1.jpg" />
             <img src="/pictures/culture/photo-2.jpg" />
         </div>

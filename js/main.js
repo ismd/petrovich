@@ -32,7 +32,8 @@ $(function() {
     });
 
     $('.fotorama').fotorama({
-        caption: 'overlay'
+        caption: 'overlay',
+        arrows: false
     });
 
     $('.fancybox-fotorama').fancybox({

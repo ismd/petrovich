@@ -2202,3 +2202,68 @@ body {
   padding: 22px 30px 0 30px;
   line-height: 1.7em;
 }
+.culture-center {
+  margin: 0 auto;
+  width: 650px;
+  text-align: center;
+  font-size: 19px;
+  color: #6b6b6b;
+  margin-top: -7px;
+  line-height: 1.9em;
+  margin-bottom: 76px;
+}
+.rect-links {
+  font-size: 0;
+  background-size: cover;
+}
+.rect-link {
+  width: 240px;
+  height: 226px;
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+  padding-top: 146px;
+  color: #000;
+  overflow: hidden;
+}
+.rect-link__title {
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+.rect-link__text {
+  padding: 7px 30px;
+  line-height: 1.9em;
+  position: relative;
+  z-index: 1;
+}
+.rect-link--position-alt {
+  padding-top: 40px;
+  height: 332px;
+}
+.rect-link__image {
+  position: absolute;
+  top: 45px;
+  left: 120px;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+.rect-link__image--position-bottom {
+  bottom: 0;
+  top: auto;
+}
+.rect-link__image--type-1 {
+  margin-left: -42px;
+}
+.rect-link:hover {
+  color: #000;
+}
+.rect-link:hover .rect-link__image {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  bottom: 0;
+}

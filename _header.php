@@ -158,6 +158,8 @@
                                     Welcome-тренинг
                                 <? elseif ('/charity.php' == $_SERVER['PHP_SELF']): ?>
                                     Благотворительность
+                                <? elseif ('/culture.php' == $_SERVER['PHP_SELF']): ?>
+                                    Корпоративная культура
                                 <? endif; ?>
                             </div>
 

@@ -2149,3 +2149,56 @@ body {
   font-size: 12px;
   line-height: 1.9em;
 }
+.university-quotations {
+  margin-top: -20px;
+  padding-left: 5px;
+}
+.university-quotation {
+  display: inline-block;
+  width: 266px;
+  vertical-align: top;
+  font-size: 12px;
+  padding-left: 35px;
+  padding-top: 80px;
+}
+.university-quotation--type-info {
+  font-size: 19px;
+  margin-top: 10px;
+  padding-left: 75px;
+  line-height: 1.9em;
+  width: 226px;
+}
+.university-quotation--type-info b {
+  font-size: 61px;
+}
+.university-quotation__text {
+  font-size: 12px;
+  border: 1px solid #cecece;
+  position: relative;
+  padding: 16px 24px 24px;
+  line-height: 1.9em;
+}
+.university-quotation__text:before {
+  position: absolute;
+  bottom: -18px;
+  left: 30px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 18px solid #cecece;
+  border-right: 23px solid transparent;
+}
+.university-quotation__text:after {
+  position: absolute;
+  bottom: -16px;
+  left: 31px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 16px solid #fff;
+  border-right: 20px solid transparent;
+}
+.university-quotation__author {
+  padding: 22px 30px 0 30px;
+  line-height: 1.7em;
+}

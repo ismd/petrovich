@@ -50,6 +50,101 @@
             </div>
         </div>
     </div>
+
+    <div class="university-quotations">
+        <div class="university-quotation university-quotation--type-info">
+            <b>342</b><br />
+            студента закончили корпоративный университет Петровича. Им&nbsp;слово.
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Суммарный поворот переворачивает гравитационный штопор, пользуясь последними системами уравнений. Момент устойчив. Как следует из&nbsp;рассмотренного выше частного случая.
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Максим Жуков</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Крышесносный курс! За&nbsp;два дня голова забита нереальным количеством материла. Даже что знал до&nbsp;курса как‑то очень правильно сложилось в&nbsp;голове
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Денис Солошенко</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Суммарный поворот переворачивает гравитационный штопор, пользуясь последними системами уравнений. Момент устойчив. Как следует из&nbsp;рассмотренного выше частного случая.
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Максим Жуков</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Крышесносный курс! За&nbsp;два дня голова забита нереальным количеством материла. Даже что знал до&nbsp;курса как‑то очень правильно сложилось в&nbsp;голове
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Денис Солошенко</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Суммарный поворот переворачивает гравитационный штопор, пользуясь последними системами уравнений. Момент устойчив. Как следует из&nbsp;рассмотренного выше частного случая.
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Максим Жуков</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Крышесносный курс! За&nbsp;два дня голова забита нереальным количеством материла. Даже что знал до&nbsp;курса как‑то очень правильно сложилось в&nbsp;голове
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Денис Солошенко</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Суммарный поворот переворачивает гравитационный штопор, пользуясь последними системами уравнений. Момент устойчив. Как следует из&nbsp;рассмотренного выше частного случая.
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Максим Жуков</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+
+        <div class="university-quotation">
+            <div class="university-quotation__text">
+                Крышесносный курс! За&nbsp;два дня голова забита нереальным количеством материла. Даже что знал до&nbsp;курса как‑то очень правильно сложилось в&nbsp;голове
+            </div>
+
+            <div class="university-quotation__author">
+                <b>Денис Солошенко</b><br />
+                <i>Руководитель отдела продаж</i>
+            </div>
+        </div>
+    </div>
 </div>
 
 <? require '_footer.php' ?>

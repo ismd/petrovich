@@ -59,6 +59,11 @@ $(function() {
             placeholder: placeholder,
             width: width
         });
+
+        $select.on('select2:select', function(e) {
+            var $select2 = $select.find('+ .select2');
+            $select2.css('width', 'auto');
+        });
     });
 
     // Меню

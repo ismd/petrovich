@@ -331,6 +331,11 @@ body {
 .menu__item {
   display: inline-block;
   position: relative;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+.menu__item:hover .menu__dropdown {
+  display: block;
 }
 .menu__item + .menu__item:before {
   background-image: url("../img/sprite.png");

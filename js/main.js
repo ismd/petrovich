@@ -72,21 +72,21 @@ $(function() {
     });
 
     // Меню
-    var $menuLinks      = $('.js-menu-open'),
-        menuActiveClass = 'menu__item-list--state-opened';
+    // var $menuLinks      = $('.js-menu-open'),
+    //     menuActiveClass = 'menu__item-list--state-opened';
 
-    $menuLinks.click(function(ev) {
-        var $this    = $(this),
-            hasClass = $this.hasClass(menuActiveClass);
+    // $menuLinks.hover(function(ev) {
+    //     var $this    = $(this),
+    //         hasClass = $this.hasClass(menuActiveClass);
 
-        $menuLinks.removeClass(menuActiveClass);
+    //     $menuLinks.removeClass(menuActiveClass);
 
-        if (!hasClass) {
-            $(this).addClass(menuActiveClass);
-        }
+    //     if (!hasClass) {
+    //         $(this).addClass(menuActiveClass);
+    //     }
 
-        ev.stopPropagation();
-    });
+    //     ev.stopPropagation();
+    // });
 
     $(window).click(function() {
         $menuLinks.removeClass('menu__item-list--state-opened');

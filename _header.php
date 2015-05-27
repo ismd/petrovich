@@ -30,7 +30,7 @@
                class="menu__item">Вакансии</a>
 
             <div class="menu__item">
-                <a href="javascript:void(0)"
+                <a href="/culture.php"
                    class="js-menu-open menu__item-list">
                     Культура</a>
 
@@ -59,7 +59,7 @@
             </div>
 
             <div class="menu__item">
-                <a href="javascript:void(0)"
+                <a href="/learning.php"
                    class="js-menu-open menu__item-list">
                     Обучение</a>
 

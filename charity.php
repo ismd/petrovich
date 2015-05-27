@@ -20,24 +20,27 @@
 
         <div class="carousel__slide carousel__slide--type-inline">
             <a href="#carousel-1"
-               class="fancybox carousel__slide-link">
-                <img src="/pictures/about/slide-1.jpg" alt="" />
+               class="fancybox-fotorama carousel__slide-link">
+                <img src="/pictures/charity/slide-1.jpg" alt="" />
                 <div class="carousel__slide-name">Андрей Иванов</div>
                 <div class="carousel__slide-description">Про развитие в компании</div>
             </a>
 
             <div class="carousel__hidden">
-                <div id="carousel-1" class="carousel__popup">
-                    <img src="/pictures/about/popup-1.jpg" alt="" />
+                <div id="carousel-1" class="carousel__popup carousel__popup--type-gallery">
+                    <div class="spacing-text carousel-popup__title">Наши комитеты</div>
 
-                    <div class="carousel__name">Андрей Иванов</div>
-                    <div class="carousel__post">Начальник склада</div>
-                    <div class="carousel__description">В&nbsp;компании работает три<br />года, начинал рядовым<br />логистом на&nbsp;складе</div>
-
-                    <div class="carousel__text">
-                        <h4>Я&nbsp;работаю в&nbsp;этой компании, потому что здесь есть возможность расти</h4>
-
-                        <p>Можно устроиться, напрмер, оператором, и&nbsp;вырасти до&nbsp;администратора. Насколько я&nbsp;знаю, половина &laquo;топов&raquo; компании когда-то устраивались на&nbsp;базовые должности.</p>
+                    <div class="fotorama fotorama--type-mid"
+                         data-nav="thumbs"
+                         data-auto="false"
+                         data-thumbheight="63"
+                         data-arrows="false">
+                        <img src="/pictures/culture/photo-1.jpg"
+                             alt="Идеальные условия для того, чтобы ни одна хорошая мысль не потерялась. Премия за улучшения для самых инициативных."
+                             data-caption="Идеальные условия для того, чтобы ни одна хорошая мысль не потерялась. Премия за улучшения для самых инициативных." />
+                        <img src="/pictures/culture/photo-2.jpg"
+                             alt="Подпись 2"
+                             data-caption="Подпись 2" />
                     </div>
                 </div>
             </div>
@@ -46,7 +49,7 @@
         <div class="carousel__slide carousel__slide--type-inline">
             <a href="javascript:void(0)"
                class="carousel__slide-link">
-                <img src="/pictures/about/slide-2.jpg" alt="" />
+                <img src="/pictures/charity/slide-2.jpg" alt="" />
                 <div class="carousel__slide-name">Сергей Петров</div>
                 <div class="carousel__slide-description">Миссия и ценности</div>
             </a>
@@ -55,7 +58,7 @@
         <div class="carousel__slide carousel__slide--type-inline">
             <a href="javascript:void(0)"
                class="carousel__slide-link">
-                <img src="/pictures/about/slide-3.jpg" alt="" />
+                <img src="/pictures/charity/slide-3.jpg" alt="" />
                 <div class="carousel__slide-name">Александра Сидорова</div>
                 <div class="carousel__slide-description">Направление развития</div>
             </a>
@@ -64,7 +67,7 @@
         <div class="carousel__slide carousel__slide--type-inline">
             <a href="javascript:void(0)"
                class="carousel__slide-link">
-                <img src="/pictures/about/slide-1.jpg" alt="" />
+                <img src="/pictures/charity/slide-4.jpg" alt="" />
                 <div class="carousel__slide-name">Андрей Иванов</div>
                 <div class="carousel__slide-description">Про развитии в компании</div>
             </a>
@@ -73,7 +76,7 @@
         <div class="carousel__slide carousel__slide--type-inline">
             <a href="javascript:void(0)"
                class="carousel__slide-link">
-                <img src="/pictures/about/slide-2.jpg" alt="" />
+                <img src="/pictures/charity/slide-5.jpg" alt="" />
                 <div class="carousel__slide-name">Сергей Петров</div>
                 <div class="carousel__slide-description">Миссия и ценности</div>
             </a>
@@ -82,7 +85,34 @@
         <div class="carousel__slide carousel__slide--type-inline">
             <a href="javascript:void(0)"
                class="carousel__slide-link">
-                <img src="/pictures/about/slide-3.jpg" alt="" />
+                <img src="/pictures/charity/slide-6.jpg" alt="" />
+                <div class="carousel__slide-name">Александра Сидорова</div>
+                <div class="carousel__slide-description">Направление развития</div>
+            </a>
+        </div>
+
+        <div class="carousel__slide carousel__slide--type-inline">
+            <a href="javascript:void(0)"
+               class="carousel__slide-link">
+                <img src="/pictures/charity/slide-7.jpg" alt="" />
+                <div class="carousel__slide-name">Андрей Иванов</div>
+                <div class="carousel__slide-description">Про развитии в компании</div>
+            </a>
+        </div>
+
+        <div class="carousel__slide carousel__slide--type-inline">
+            <a href="javascript:void(0)"
+               class="carousel__slide-link">
+                <img src="/pictures/charity/slide-8.jpg" alt="" />
+                <div class="carousel__slide-name">Сергей Петров</div>
+                <div class="carousel__slide-description">Миссия и ценности</div>
+            </a>
+        </div>
+
+        <div class="carousel__slide carousel__slide--type-inline">
+            <a href="javascript:void(0)"
+               class="carousel__slide-link">
+                <img src="/pictures/charity/slide-9.jpg" alt="" />
                 <div class="carousel__slide-name">Александра Сидорова</div>
                 <div class="carousel__slide-description">Направление развития</div>
             </a>

@@ -1798,6 +1798,19 @@ body {
   vertical-align: top;
   padding-top: 7px;
 }
+.vacancy-info-description__column:nth-child(3) {
+  padding-left: 9px;
+}
+.vacancy-info-description__column:nth-child(3) i {
+  display: inline-block;
+  padding-top: 8px;
+}
+.vacancy-info-description__column:nth-child(4) {
+  padding-left: 36px;
+}
+.vacancy-info-description__column:nth-child(5) {
+  padding-left: 17px;
+}
 .vacancy-info-description__column:first-child {
   width: 106px;
   text-transform: uppercase;

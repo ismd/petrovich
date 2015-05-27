@@ -1,6 +1,6 @@
 <? require '_header.php' ?>
 
-<div class="big-image">
+<div class="big-image big-image--width-screen">
     <img src="/pictures/culture/recognition.jpg" alt="" />
 </div>
 

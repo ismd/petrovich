@@ -1,6 +1,6 @@
 <? require '_header.php' ?>
 
-<div class="big-image big-image--gradient-yes">
+<div class="big-image big-image--gradient-yes big-image--width-screen">
     <img src="/pictures/learning/university.jpg" alt="" />
     <div class="big-image__text big-image__text--type-big">Это образование, ориентированное на&nbsp;практику. Преподаватели&nbsp;&mdash; руководители компании, передают свои знания и&nbsp;накопленный опыт.</div>
     <img src="/pictures/learning/university-text.png"

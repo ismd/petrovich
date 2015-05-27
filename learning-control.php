@@ -1,8 +1,7 @@
 <? require '_header.php' ?>
 
-<div class="big-image big-image--width-screen">
-    <img src="/pictures/learning/control.jpg" alt="" />
-</div>
+<div class="big-image big-image--width-screen"
+     style="background-image: url('/pictures/learning/control.jpg');"></div>
 
 <div class="layout">
     <div class="text-content">

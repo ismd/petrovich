@@ -1,8 +1,7 @@
 <? require '_header.php' ?>
 
-<div class="big-image big-image--width-screen">
-    <img src="/pictures/charity/main.jpg" alt="" />
-</div>
+<div class="big-image big-image--width-screen"
+     style="background-image: url('/pictures/charity/main.jpg');"></div>
 
 <div class="layout">
     <div class="about-mission about-mission--bottom-border-no">

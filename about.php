@@ -26,8 +26,8 @@
        data-id="#about-contacts">Контакты</a>
 </div>
 
-<div class="big-image big-image--width-screen">
-    <img src="/pictures/about/big.jpg" alt="" />
+<div class="big-image big-image--width-screen"
+     style="background-image: url('/pictures/about/big.jpg');">
     <div class="big-image__text">К нам приходят работать надолго — с нашей стороны есть все условия для этого</div>
 </div>
 

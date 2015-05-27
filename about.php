@@ -188,7 +188,8 @@
 </div>
 
 <div class="about-map-wrapper">
-    <select class="select about-map-wrapper__select">
+    <select class="select about-map-wrapper__select"
+            data-width="200">
         <option>Санкт-Петербург</option>
     </select>
 

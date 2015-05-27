@@ -14,7 +14,7 @@
 
         <div class="text-content__center spacing-text">Студенты</div>
 
-        <div class="fotorama"
+        <div class="fotorama fotorama--type-mid"
              data-nav="thumbs"
              data-auto="false"
              data-arrows="false">

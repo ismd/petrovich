@@ -27,7 +27,7 @@
                     <div id="carousel-1" class="carousel__popup carousel__popup--type-gallery">
                         <div class="spacing-text carousel-popup__title">Наши комитеты</div>
 
-                        <div class="fotorama"
+                        <div class="fotorama fotorama--type-mid"
                              data-nav="thumbs"
                              data-auto="false"
                              data-thumbheight="63"

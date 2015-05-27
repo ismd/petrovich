@@ -30,7 +30,7 @@
 
         <div class="text-content__center spacing-text">Лекции и преподаватели</div>
 
-        <div class="fotorama"
+        <div class="fotorama fotorama--type-mid"
              data-nav="thumbs"
              data-auto="false">
             <img src="/pictures/culture/photo-1.jpg" />

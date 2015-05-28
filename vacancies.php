@@ -263,6 +263,7 @@
     <div class="clear"></div>
 </div>
 
-<div class="vacancies-right-car"></div>
+<a href="javascript:void(0)"
+   class="vacancies-right-car"></a>
 
 <? require '_footer.php' ?>
